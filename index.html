@@ -10,6 +10,7 @@
 <body>
   <!-- Canvas (Person 1 draws here) -->
   <canvas id="spaceCanvas"></canvas>
+  <div id="hoverTooltip" class="tooltip is-hidden" role="status"></div>
 
   <!-- Top-left branding -->
   <header class="brand">
@@ -43,7 +44,14 @@
     <div class="hint">
       Tip: Click a debris object to learn what it is.
     </div>
+    <div id="riskLegend" class="legend is-hidden">
+      <div class="legend__title">Risk Legend</div>
+      <div class="legend__row"><span class="dot dot--low"></span> Low risk</div>
+      <div class="legend__row"><span class="dot dot--med"></span> Medium risk</div>
+      <div class="legend__row"><span class="dot dot--high"></span> High risk</div>
+    </div>
   </aside>
+
 
   <!-- Info panel (opens when clicking debris; wired later) -->
   <aside id="infoPanel" class="panel panel--info is-hidden" aria-label="Object info">

@@ -4,10 +4,11 @@ const infoPanel = document.getElementById("infoPanel");
 const infoTitle = document.getElementById("infoTitle");
 const infoFact = document.getElementById("infoFact");
 const infoMeta = document.getElementById("infoMeta");
+const hoverTooltip = document.getElementById("hoverTooltip");
+const riskLegend = document.getElementById("riskLegend");
 
 const closeInfoBtn = document.getElementById("closeInfo");
 
-const densitySelect = document.getElementById("densitySelect");
 const toggleRiskBtn = document.getElementById("toggleRisk");
 const toggleSimBtn = document.getElementById("toggleSim");
 
@@ -15,11 +16,19 @@ const toggleSimBtn = document.getElementById("toggleSim");
 let riskViewOn = false;
 let simRunning = false;
 
+
+function makeChips(chips = []) {
+  if (!chips.length) return "";
+  return `<div class="chips">
+    ${chips.map(c => `<span class="chip ${c.strong ? "chip--strong" : ""}">${c.text}</span>`).join("")}
+  </div>`;
+}
+
 // functions to control the Info Panel 
-function showInfoPanel({ name, fact, metaHTML = "" }) {
+function showInfoPanel({ name, fact, chips= [], metaHTML = "" }) {
   infoTitle.textContent = name || "Unknown Object";
   infoFact.textContent = fact || "No description available.";
-  infoMeta.innerHTML = metaHTML;
+  infoMeta.innerHTML = metaHTML || makeChips(chips);
 
   infoPanel.classList.remove("is-hidden");
   infoPanel.classList.add("is-visible");
@@ -39,7 +48,7 @@ toggleRiskBtn.addEventListener("click", () => {
 
   toggleRiskBtn.textContent = riskViewOn ? "Risk View: On" : "Risk View: Off";
   toggleRiskBtn.classList.toggle("is-active", riskViewOn);
-
+  riskLegend.classList.toggle("is-hidden", !riskViewOn);
   // Tell canvas logic (Person 1) that risk mode changed
   window.dispatchEvent(new CustomEvent("risk-toggle", { detail: { riskViewOn } }));
 });
@@ -73,6 +82,16 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
+function showTooltip(text, x, y) {
+  hoverTooltip.textContent = text;
+  hoverTooltip.style.left = `${x + 12}px`;
+  hoverTooltip.style.top = `${y + 12}px`;
+  hoverTooltip.classList.remove("is-hidden");
+}
+
+function hideTooltip() {
+  hoverTooltip.classList.add("is-hidden");
+}
 // ---------- Export global function for Person 1 ----------
 // Person 1 can call: window.UI.showInfoPanel(debrisData)
-window.UI = { showInfoPanel, hideInfoPanel };
+window.UI = { showInfoPanel, hideInfoPanel, showTooltip, hideTooltip };
