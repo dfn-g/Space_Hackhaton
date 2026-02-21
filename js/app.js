@@ -3,8 +3,9 @@
 
 const canvas = document.getElementById("spaceCanvas");
 const ctx = canvas.getContext("2d");
-
 let debrisField = [];
+let hoveredDebris = null;
+
 // --------- Canvas sizing (important) ----------
 function resizeCanvas() {
   // Make the canvas match the displayed size (CSS) AND account for devicePixelRatio
@@ -52,7 +53,8 @@ function drawOrbitRing(cx, cy, radius) {
 function createDebris(count) {
     debrisField = [];
 
-    const orbitRadii = [150, 220, 300];
+    //const orbitRadii = [150, 220, 300];
+    const orbitRadii = [140, 220, 320];
 
     for (let i = 0; i < count; i++) {
 
@@ -84,9 +86,20 @@ function drawDebris() {
 
         ctx.beginPath();
         ctx.arc(x, y, obj.radius, 0, Math.PI * 2);
-        ctx.fillStyle = "purple";
+        // Highlight if this object is hovered
+        if (obj === hoveredDebris) {
+            ctx.fillStyle = "yellow";        // highlight colour
+            ctx.shadowColor = "white";       // optional glow
+            ctx.shadowBlur = 10;
+        } else {
+            ctx.fillStyle = "purple";
+            ctx.shadowBlur = 0;              // remove glow for others
+        }
+        
         ctx.fill();
     });
+    // Reset shadow to avoid affecting other drawings
+    ctx.shadowBlur = 0;
 }
 
 
@@ -120,7 +133,7 @@ function drawScene() {
 
 // --------- Animation loop ----------
 function animate() {
-    drawBackground();
+    
 
     drawScene();
 
@@ -134,3 +147,97 @@ function animate() {
 
 createDebris(50);
 animate();
+
+// --------- Hover detection ----------
+
+
+canvas.addEventListener('mousemove', (event) => {
+  // Get mouse position in CSS pixels relative to canvas
+  const rect = canvas.getBoundingClientRect();
+  const mouseX = event.clientX - rect.left;
+  const mouseY = event.clientY - rect.top;
+
+  const { x: centerX, y: centerY } = getCenter();
+  const threshold = 8; // same as click threshold
+  let newHover = null;
+  let minDist = Infinity;
+
+  debrisField.forEach(obj => {
+    const x = centerX + obj.orbitRadius * Math.cos(obj.angle);
+    const y = centerY + obj.orbitRadius * Math.sin(obj.angle);
+    const dx = mouseX - x;
+    const dy = mouseY - y;
+    const dist = Math.sqrt(dx*dx + dy*dy);
+
+    if (dist <= obj.radius + threshold && dist < minDist) {
+      minDist = dist;
+      newHover = obj;
+    }
+  });
+
+  hoveredDebris = newHover;
+
+  // Change cursor style
+  canvas.style.cursor = hoveredDebris ? 'pointer' : 'default';
+});
+
+// Clear hover when mouse leaves canvas
+canvas.addEventListener('mouseleave', () => {
+  hoveredDebris = null;
+  canvas.style.cursor = 'default';
+});
+
+
+// --------- Click detection ----------
+canvas.addEventListener('click', (event) => {
+  // Get mouse position in CSS pixels relative to canvas
+  const rect = canvas.getBoundingClientRect();
+  const mouseX = event.clientX - rect.left;
+  const mouseY = event.clientY - rect.top;
+
+  // Center of Earth (same as drawing)
+  const { x: centerX, y: centerY } = getCenter();
+
+  // Find the closest debris within a threshold
+  const threshold = 8; // pixels – makes clicking easier
+  let clickedDebris = null;
+  let minDist = Infinity;
+
+  debrisField.forEach(obj => {
+    // Current position of debris
+    const x = centerX + obj.orbitRadius * Math.cos(obj.angle);
+    const y = centerY + obj.orbitRadius * Math.sin(obj.angle);
+
+    const dx = mouseX - x;
+    const dy = mouseY - y;
+    const dist = Math.sqrt(dx*dx + dy*dy);
+
+    // Check if within object radius + threshold
+    if (dist <= obj.radius + threshold && dist < minDist) {
+      minDist = dist;
+      clickedDebris = obj;
+    }
+  });
+
+  // Get info panel elements
+  const infoPanel = document.getElementById('infoPanel');
+  const infoTitle = document.getElementById('infoTitle');
+  const infoFact = document.getElementById('infoFact');
+  const infoMeta = document.getElementById('infoMeta');
+
+  if (clickedDebris) {
+    // Show panel and populate data
+    infoPanel.classList.remove('is-hidden');
+    infoTitle.textContent = clickedDebris.type.charAt(0).toUpperCase() + clickedDebris.type.slice(1);
+    infoFact.textContent = `Orbit radius: ${clickedDebris.orbitRadius} px | Speed: ${clickedDebris.speed.toFixed(4)} rad/frame`;
+    infoMeta.textContent = `Size: ${clickedDebris.radius.toFixed(1)} px`;
+  } else {
+    // Hide panel if click is empty space
+    infoPanel.classList.add('is-hidden');
+  }
+});
+
+// Close button functionality
+document.getElementById('closeInfo').addEventListener('click', () => {
+  document.getElementById('infoPanel').classList.add('is-hidden');
+});
