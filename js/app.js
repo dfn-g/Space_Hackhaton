@@ -241,3 +241,21 @@ canvas.addEventListener('click', (event) => {
 document.getElementById('closeInfo').addEventListener('click', () => {
   document.getElementById('infoPanel').classList.add('is-hidden');
 });
+
+// --------- Density control (Phase 4) ----------
+const densitySelect = document.getElementById('densitySelect');
+
+densitySelect.addEventListener('change', (event) => {
+  const value = event.target.value;
+  let count;
+
+  if (value === 'low') {
+    count = 20;      // few debris
+  } else if (value === 'medium') {
+    count = 50;      // default medium
+  } else if (value === 'high') {
+    count = 100;     // many debris
+  }
+
+  createDebris(count);  // replaces the debris field with new random debris
+});
