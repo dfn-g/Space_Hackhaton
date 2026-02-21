@@ -185,7 +185,7 @@
         "line1": "1 82250U          26052.69245436 +.00003701 +00000+0 +19054-2 0  9992",
         "line2": "2 82250  98.9069 322.9345 0073432 351.4477  38.9972 14.14423970626667"
       },
-      "education": null
+      "education": "This object was recently cataloged and has not yet been publicly identified."
     },
     {
       "noradId": "82873",
@@ -196,7 +196,7 @@
         "line1": "1 82873U          26052.68091422 +.00002874 +00000+0 +12404-2 0  9998",
         "line2": "2 82873  99.9953 321.5844 0039573  83.8329 276.7352 14.25018769631332"
       },
-      "education": null
+      "education": "Newly detected objects are sometimes listed with placeholder names until further analysis is completed."
     },
     {
       "noradId": "62333",
@@ -207,7 +207,7 @@
         "line1": "1 62333U 24241A   26052.66855241 -.00000017  00000-0  26340-5 0  9991",
         "line2": "2 62333  97.5233   1.6947 0001614  92.4747 267.6669 15.13450124 65324"
       },
-      "education": null
+      "education": "PIESAT-2 is a small Earth observation satellite operating in low Earth orbit."
     },
     {
       "noradId": "51951",
@@ -218,7 +218,7 @@
         "line1": "1 51951U 22023F   26052.66194118  .00021673  00000-0  88058-3 0  9992",
         "line2": "2 51951  63.4582 306.1625 0117399 343.2509  16.4739 15.18412585220172"
       },
-      "education": null
+      "education": "Objects with generic labels often represent mission-related hardware or secondary components from a launch."
     },
     {
       "noradId": "63245",
@@ -229,7 +229,7 @@
         "line1": "1 63245U 25052AM  26052.65946731  .00003258  00000-0  31134-3 0  9993",
         "line2": "2 63245  97.7013 305.9956 0002524 225.0004 135.1012 14.93939897 51340"
       },
-      "education": null
+      "education": "BUCCANEER MM is a satellite used for technology demonstration and testing in orbit."
     },
     {
       "noradId": "40358",
@@ -240,7 +240,7 @@
         "line1": "1 40358U 14086A   26052.65909169 -.00000023  00000-0  36826-4 0  9994",
         "line2": "2 40358  67.1530 288.5337 0007636 283.2774  76.7459 13.97806944567800"
       },
-      "education": null
+      "education": "BUCCANEER MM is a satellite used for technology demonstration and testing in orbit."
     },
     {
       "noradId": "45738",
@@ -251,7 +251,7 @@
         "line1": "1 45738U 20038J   26052.65788142  .02033979  11962-4  69616-3 0  9993",
         "line2": "2 45738  53.0137 143.4805 0009098 343.5007  16.5735 16.24648176316081"
       },
-      "education": null
+      "education": "Starlink satellites are part of a large constellation providing global internet coverage."
     },
     {
       "noradId": "47302",
@@ -262,7 +262,7 @@
         "line1": "1 47302U 20103A   26052.65742075  .00000409  00000-0  96981-4 0  9993",
         "line2": "2 47302  98.0584 297.8095 0003889 121.3014 238.8567 14.58813763274460"
       },
-      "education": null
+      "education": "Yaogan-33 is an Earth observation satellite operating in a sun-synchronous orbit."
     },
     {
       "noradId": "56178",
@@ -273,7 +273,7 @@
         "line1": "1 56178U 23054A   26052.65616734  .00000364  00000-0  75448-4 0  9999",
         "line2": "2 56178  98.1316 318.7050 0009616 166.7327 193.4132 14.65845844153488"
       },
-      "education": null
+      "education": "Yaogan-33 is an Earth observation satellite operating in a sun-synchronous orbit."
     },
     {
       "noradId": "44311",
@@ -284,7 +284,7 @@
         "line1": "1 44311U 19032B   26052.65581979  .00010304  00000-0  41093-3 0  9991",
         "line2": "2 44311  44.9737 280.0761 0025025  28.0985 332.1241 15.25162464370090"
       },
-      "education": null
+      "education": "Secondary objects from launches can remain in orbit and must be tracked to avoid collisions."
     },
     {
       "noradId": "59282",
