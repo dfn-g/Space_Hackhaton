@@ -5,6 +5,8 @@ const canvas = document.getElementById("spaceCanvas");
 const ctx = canvas.getContext("2d");
 let debrisField = [];
 let hoveredDebris = null;
+let simRunning = true;   // from UI toggle 
+let SPACE_DATA = null;   // whole JSON file
 
 // --------- Canvas sizing (important) ----------
 function resizeCanvas() {
@@ -50,13 +52,77 @@ function drawOrbitRing(cx, cy, radius) {
   ctx.stroke();
 }
 
+function getMeanMotion(tleLine2) {
+  if (!tleLine2) return null;
+  const parts = tleLine2.trim().split(/\s+/);
+  const mm = parseFloat(parts[parts.length - 1]);
+  return Number.isFinite(mm) ? mm : null;
+}
+
+function classifyOrbitBandFromTLE(tleLine2) {
+  const mm = getMeanMotion(tleLine2);
+  if (mm === null) return "LEO";        // fallback
+  if (mm > 11) return "LEO";
+  if (mm > 1.5) return "MEO";
+  return "GEO";
+}
+
+function orbitRadiusForBand(band) {
+  if (band === "LEO") return 140;
+  if (band === "MEO") return 220;
+  return 320;
+}
+
+function baseSpeedForBand(band) {
+  if (band === "LEO") return 0.0045;
+  if (band === "MEO") return 0.0028;
+  return 0.0016;
+}
+
 function createDebris(count) {
     debrisField = [];
 
-    //const orbitRadii = [150, 220, 300];
+    if (!SPACE_DATA || !SPACE_DATA.objects) {
     const orbitRadii = [140, 220, 320];
-
     for (let i = 0; i < count; i++) {
+      const orbitRadius = orbitRadii[Math.floor(Math.random() * orbitRadii.length)];
+      const angle = Math.random() * Math.PI * 2;
+
+      debrisField.push({
+        orbitRadius,
+        angle,
+        speed: 0.002 + Math.random() * 0.004,
+        radius: 3 + Math.random() * 4,
+        type: "debris",
+        data: null,
+        band: "LEO"
+      });
+    }
+    return;
+  }
+     // Use real dataset objects
+  const src = SPACE_DATA.objects;
+  const chosen = src.slice(0, Math.min(count, src.length));
+
+  for (const obj of chosen) {
+    const band = classifyOrbitBandFromTLE(obj?.tle?.line2);
+    const orbitRadius = orbitRadiusForBand(band);
+
+    const angle = Math.random() * Math.PI * 2;
+    const speed = baseSpeedForBand(band) + Math.random() * 0.0015;
+
+    debrisField.push({
+      orbitRadius,
+      angle,
+      speed,
+      radius: 3 + Math.random() * 3,   // keep small dots for now
+      type: (obj.type || "UNKNOWN"),
+      data: obj,       // store the real object here
+      band             //store orbit band
+    });
+  }
+
+    /*for (let i = 0; i < count; i++) {
 
         const orbitRadius = orbitRadii[Math.floor(Math.random() * orbitRadii.length)];
         const angle = Math.random() * Math.PI * 2;
@@ -68,7 +134,7 @@ function createDebris(count) {
             radius: 3 + Math.random() * 4,
             type: "debris"
         });
-    }
+    }*/
 }
 
 function updateDebris() {
@@ -134,19 +200,29 @@ function drawScene() {
 // --------- Animation loop ----------
 function animate() {
     
-
     drawScene();
 
-
-    updateDebris();
+    if (simRunning) updateDebris();
+    
     drawDebris();
 
     requestAnimationFrame(animate);
 
 }
 
-createDebris(50);
-animate();
+async function loadSpaceData() {
+  const res = await fetch("data/space_objects.json");
+  if (!res.ok) throw new Error("Failed to load data/space_objects.json");
+  return await res.json();
+}
+
+async function start() {
+  SPACE_DATA = await loadSpaceData();
+  createDebris(50);
+  animate();
+}
+
+start().catch(console.error);
 
 // --------- Hover detection ----------
 
