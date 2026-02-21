@@ -812,7 +812,7 @@
         "line1": "1 19119U 88039A   26052.64640601  .00000047  00000-0  48368-4 0  9995",
         "line2": "2 19119  71.0021 279.6540 0013752 271.9355  98.0453 14.15739741950541"
       },
-      "education": null
+      "education": "Cosmos 1943 was a Soviet navigation satellite launched in 1988, part of the Parus constellation used for submarine communication and positioning."
     },
     {
       "noradId": "56412",
@@ -823,7 +823,7 @@
         "line1": "1 56412U 23061AQ  26052.64626129 -.00003772  00000-0 -26456-3 0  9998",
         "line2": "2 56412  43.0029 271.4402 0000725 267.3144  92.7615 15.02502527154491"
       },
-      "education": null
+      "education": "Starlink-6278 is one of thousands of satellites in SpaceX's Starlink megaconstellation, designed to provide global broadband internet."
     },
     {
       "noradId": "16909",
@@ -834,7 +834,7 @@
         "line1": "1 16909U 86061B   26052.64618286 -.00000076  00000-0  15120-3 0  9998",
         "line2": "2 16909  50.0155 148.5818 0011083 226.7529 279.7950 12.44485559797700"
       },
-      "education": null
+      "education": "JAS-1, also known as Fuji-1, was Japan's first amateur radio satellite, launched in 1986. It enabled ham radio operators worldwide to communicate via space."
     },
     {
       "noradId": "47937",
@@ -845,7 +845,7 @@
         "line1": "1 47937U 21022F   26052.64598365  .00008648  00000-0  29131-3 0  9993",
         "line2": "2 47937  97.4003 313.5390 0011353 135.2937 224.9221 15.30937686272025"
       },
-      "education": null
+      "education": "Object F is an unidentified piece from a 2021 launch – possibly a rocket adapter or a deployment mechanism. Its exact function remains mysterious."
     },
     {
       "noradId": "60636",
@@ -856,7 +856,7 @@
         "line1": "1 60636U 24140AM  26052.64592689  .00000530  00000-0  24460-3 0  9993",
         "line2": "2 60636  88.9946 287.6554 0049060 198.8584 161.0791 14.18987920 79725"
       },
-      "education": null
+      "education": "This fragment comes from a Chinese Long March 6A rocket that launched in 2024. It's a piece of the rocket's upper stage, now tracked as space debris."
     },
     {
       "noradId": "20850",
@@ -867,7 +867,7 @@
         "line1": "1 20850U 90081N   26052.64559603  .00000381  00000-0  15334-3 0  9997",
         "line2": "2 20850  98.4638 105.4596 0072225 204.0621 320.3389 14.32094677846423"
       },
-      "education": null
+      "education": "Debris from a Chinese Long March 4 rocket launched in 1990. It's one of many fragments from decades of space missions, contributing to the orbital junk population."
     },
     {
       "noradId": "81615",
@@ -878,7 +878,7 @@
         "line1": "1 81615U          26052.64554144 +.00002182 +00000+0 +80281-3 0  9993",
         "line2": "2 81615  65.8261 256.8680 0767622 103.3975 265.3744 13.34368008592322"
       },
-      "education": null
+      "education": "This object is currently unassigned – it could be a newly cataloged piece of debris or a satellite awaiting identification. Its origin is a cosmic mystery."
     },
     {
       "noradId": "21162",
@@ -889,7 +889,7 @@
         "line1": "1 21162U 91009Z   26052.64548707 -.00000026  00000-0 -87378-4 0  9994",
         "line2": "2 21162  73.9793  29.9782 0138199 242.0282 234.2424 12.27829054567256"
       },
-      "education": null
+      "education":  "A fragment from a Soviet SL-8 (Kosmos-3M) rocket that launched a navigation satellite in 1991. It's a reminder of Cold War rocketry now orbiting as junk."
     },
     {
       "noradId": "53243",
@@ -900,7 +900,7 @@
         "line1": "1 53243U 22086B   26052.64545144  .00000393  00000-0  42772-4 0  9994",
         "line2": "2 53243  53.2172 275.8378 0001333  88.4683 271.6462 15.08838333198846"
       },
-      "education": null
+      "education": "Starlink-4047 is part of SpaceX's second-generation Starlink constellation, launched in 2022 to improve coverage and reduce latency for internet users."
     },
     {
       "noradId": "3592",
@@ -911,7 +911,7 @@
         "line1": "1 03592U 65048F   26052.64535811  .00000246  00000-0  30099-3 0  9996",
         "line2": "2 03592  89.8769 289.2322 0059534 303.8863  83.9031 13.62656219  4226"
       },
-      "education": null
+      "education": "This debris comes from a Thor AbleStar rocket launched in 1965. It's one of the oldest pieces of space junk still being tracked."
     },
     {
       "noradId": "30393",
@@ -922,7 +922,7 @@
         "line1": "1 30393U 99025ADG 26052.64534572  .00000091  00000-0  91469-4 0  9997",
         "line2": "2 30393  99.1531 115.3843 0071739  65.6070  86.2422 13.99020272973215"
       },
-      "education": null
+      "education": "A fragment from the 2007 Chinese anti-satellite test that destroyed the Fengyun-1C weather satellite. The event created over 3,000 trackable debris pieces."
     },
     {
       "noradId": "12218",
@@ -933,7 +933,7 @@
         "line1": "1 12218U 78026BK  26052.64516449 -.00000022  00000-0  16581-4 0  9991",
         "line2": "2 12218  99.3462 294.1550 0052604 127.6783 252.4424 13.98180157293488"
       },
-      "education": null
+      "education": "A piece of a Delta rocket from 1978. It's part of a long‑lived debris cloud from decades ago, showing how long junk can linger in orbit."
     },
     {
       "noradId": "26819",
@@ -944,7 +944,7 @@
         "line1": "1 26819U 01023B   26052.64511972  .00000022  00000-0  72301-5 0  9994",
         "line2": "2 26819  82.9225 286.1751 0021878 304.8487  72.8142 13.75927997240443"
       },
-      "education": null
+      "education": "This is the upper stage of a Russian Kosmos-3M rocket that launched a military satellite in 2001. Rocket bodies like this often remain in orbit for years."
     },
     {
       "noradId": "12728",
@@ -955,7 +955,7 @@
         "line1": "1 12728U 81053BV  26052.64507241  .00000538  00000-0  51488-3 0  9996",
         "line2": "2 12728  82.8105 167.8386 0058137 167.6570 257.4630 13.77978670222380"
       },
-      "education": null
+      "education": "A fragment from the Cosmos 1275 satellite, which mysteriously exploded in 1981 shortly after launch – possibly due to a collision or battery failure."
     },
     {
       "noradId": "27056",
@@ -966,7 +966,7 @@
         "line1": "1 27056U 01058B   26052.64491406  .00000038  00000-0  15958-3 0  9995",
         "line2": "2 27056  82.5369 293.7583 0006667 127.8392 260.3309 12.60563066111224"
       },
-      "education": null
+      "education": "Cosmos 2385 was a Russian military satellite launched in 2001, likely part of the Strela communications network for relaying encrypted messages."
     },
     {
       "noradId": "48219",
@@ -977,7 +977,7 @@
         "line1": "1 48219U 21031K   26052.64486372  .00000047  00000-0  93028-4 0  9993",
         "line2": "2 48219  87.9014 312.7523 0001762  71.0096 289.1224 13.14504712233146"
       },
-      "education": null
+      "education": "OneWeb-0183 is part of the OneWeb internet constellation, launched in 2021 to provide broadband access to remote regions worldwide."
     },
     {
       "noradId": "63174",
@@ -988,7 +988,7 @@
         "line1": "1 63174U 25046R   26052.64478887  .00000147  00000-0  20980-3 0  9999",
         "line2": "2 63174  88.9779 312.5283 0010838 296.6904  63.3137 13.51000143 57082"
       },
-      "education": null
+      "education": "Qianfan-88 is a Chinese satellite from the Qianfan (Thousand Sails) constellation, aimed at providing global internet coverage from low Earth orbit."
     },
     {
       "noradId": "48797",
@@ -999,7 +999,7 @@
         "line1": "1 48797U 21045AG  26052.64474240  .00000042  00000-0  78007-4 0  9995",
         "line2": "2 48797  87.8956 282.2829 0001666  85.3969 274.7351 13.15550276229065"
       },
-      "education": null
+      "education": "Another OneWeb satellite, launched in 2021. These satellites orbit in polar orbits to serve high‑latitude areas like Alaska and northern Europe."
     },
     {
       "noradId": "30079",
@@ -1010,7 +1010,7 @@
         "line1": "1 30079U 99025QG  26052.64473677  .00000112  00000-0  10078-3 0  9996",
         "line2": "2 30079  99.0176 112.3406 0087946 103.7597  58.9595 14.00836761975307"
       },
-      "education": null
+      "education": "One of the thousands of fragments from the 2007 Chinese anti‑satellite missile test that destroyed the Fengyun‑1C weather satellite. The event created the worst single debris cloud in history, with over 3,000 trackable pieces."
     },
     {
       "noradId": "53650",
@@ -1021,7 +1021,7 @@
         "line1": "1 53650U 22105C   26052.64472054  .00000336  00000-0  30679-4 0  9997",
         "line2": "2 53650  97.6027 294.4943 0001049 105.3803 254.7537 15.01259145190827"
       },
-      "education": null
+      "education": "Starlink-4380 is part of SpaceX's second‑generation Starlink constellation, launched in 2022 to expand global broadband coverage. These satellites use ion thrusters to avoid collisions and deorbit at end of life."
     },
     {
       "noradId": "53651",
@@ -1032,7 +1032,7 @@
         "line1": "1 53651U 22105D   26052.64469408  .00000000  00000-0  42125-5 0  9995",
         "line2": "2 53651  97.6023 295.4096 0003128  95.8075 264.3508 15.05638258190889"
       },
-      "education": null
+      "education": "Another Starlink satellite from the same launch, equipped with laser inter‑satellite links to reduce latency and provide truly global connectivity without ground stations everywhere."
     },
     {
       "noradId": "25158",
@@ -1043,7 +1043,7 @@
         "line1": "1 25158U 98007B   26052.64444616  .00000805  00000-0  32375-3 0  9991",
         "line2": "2 25158 107.9651 288.3093 0043903 174.4654 185.6980 14.35263275459828"
       },
-      "education": null
+      "education": "ORBCOMM FM 3 is one of the original ORBCOMM satellites launched in 1998 to provide global asset tracking and messaging services. It operates in low Earth orbit and has outlived its design life by decades."
     },
     {
       "noradId": "27669",
@@ -1054,7 +1054,7 @@
         "line1": "1 27669U 91075E   26052.64401918  .00289313  00000-0  23263-1 0  9993",
         "line2": "2 27669   7.9198 297.4777 5314163  77.4420 334.6934  5.15566241334665"
       },
-      "education": null
+      "education": "A piece of debris from an Ariane 44L rocket that launched the Eutelsat II F3 and Telecom 2A satellites in 1991. It's one of many fragments from Europe's workhorse launcher, now drifting in a high‑inclination orbit."
     },
     {
       "noradId": "57788",
@@ -1065,7 +1065,7 @@
         "line1": "1 57788U 23134T   26052.64399087 -.00000851  00000-0 -47922-4 0  9993",
         "line2": "2 57788  43.0045 271.3619 0001124 253.9481 106.1237 15.02538231137216"
       },
-      "education": null
+      "education": "Starlink-30387 is part of SpaceX's constellation, launched in 2023. It orbits in a 43° inclination shell, helping to serve densely populated areas with low‑latency internet."
     },
     {
       "noradId": "13764",
@@ -1076,7 +1076,7 @@
         "line1": "1 13764U 83002D   26052.64395902  .00000003  00000-0  12234-3 0  9995",
         "line2": "2 13764  74.0241 128.4157 0003709 260.2687 171.6597 12.49886531966418"
       },
-      "education": null
+      "education": "Cosmos 1432 was a Soviet navigation satellite launched in 1983, part of the Parus constellation that provided position data for submarines and surface vessels. It remains in a semi‑synchronous orbit."
     },
     {
       "noradId": "56966",
@@ -1087,7 +1087,7 @@
         "line1": "1 56966U 23084AL  26052.64382931  .00020650  00000-0  52323-3 0  9991",
         "line2": "2 56966  97.5541 192.3781 0006059 305.7744  54.2938 15.39734065150264"
       },
-      "education": null
+      "education": "NUSAT-42 is a nanosatellite named in honor of M. Wonenburger, a pioneer in mathematics. It's part of a constellation of small satellites for technology demonstration and education, launched in 2023."
     },
     {
       "noradId": "63901",
@@ -1098,7 +1098,7 @@
         "line1": "1 63901U 25095M   26052.64360471  .00030049  00000-0  10962-2 0  9992",
         "line2": "2 63901  43.0010 266.8472 0000925 252.4385 107.6366 15.27604234 45326"
       },
-      "education": null
+      "education": "Starlink-34125 is a V2 Mini satellite, part of SpaceX's next‑generation design with increased bandwidth and more powerful antennas to serve remote and rural areas."
     },
     {
       "noradId": "12326",
@@ -1109,7 +1109,7 @@
         "line1": "1 12326U 81022G   26052.64360281  .00000007  00000-0  15447-3 0  9993",
         "line2": "2 12326  74.0301 141.5208 0013056 329.0855 100.2956 12.49598476 51160"
       },
-      "education": null
+      "education": "Cosmos 1256 was a Soviet navigation satellite launched in 1981, part of the Parus network. It operated for many years and now silently orbits as a derelict, tracked by space surveillance radars."
     },
     {
       "noradId": "60807",
@@ -1120,7 +1120,7 @@
         "line1": "1 60807U 24140GJ  26052.64355092  .00000312  00000-0  16439-3 0  9993",
         "line2": "2 60807  89.0092 289.4819 0089342 220.8729 138.5734 14.09560608 78700"
       },
-      "education": null
+      "education": "A fragment from a Chinese Long March 6A rocket launched in 2024. The rocket's upper stage fragmented, adding dozens of trackable pieces to the debris environment – a growing concern for space sustainability."
     },
     {
       "noradId": "63256",
@@ -1131,7 +1131,7 @@
         "line1": "1 63256U 25052AY  26052.64351982  .00001324  00000-0  13397-3 0  9995",
         "line2": "2 63256  97.7101 306.2793 0000998  65.7491 294.3833 14.92629269 51353"
       },
-      "education": null
+      "education": "FireSat0 is a small satellite designed to detect and monitor wildfires from space. It carries infrared sensors to spot fires early, helping firefighters respond faster. Launched in 2025."
     },
     {
       "noradId": "12666",
@@ -1142,7 +1142,7 @@
         "line1": "1 12666U 81053W   26052.64350168  .00000323  00000-0  32193-3 0  9995",
         "line2": "2 12666  82.8731 307.0967 0067107 214.1572 161.8895 13.74352225227213"
       },
-      "education": null
+      "education": "A fragment from the mysterious breakup of Cosmos 1275 in 1981, just months after launch. The cause remains unknown – possibly a collision with debris or an internal explosion."
     },
     {
       "noradId": "1829",
@@ -1153,7 +1153,7 @@
         "line1": "1 01829U 65082DU  26052.64341848  .00002623  00000-0  26804-3 0  9990",
         "line2": "2 01829  32.2887 281.1646 0023564  76.8302 283.4982 14.88912239203284"
       },
-      "education": null
+      "education": "This piece of debris comes from a Titan 3C transtage, a US Air Force rocket stage used in the 1960s and 70s. It's one of the oldest tracked objects still in orbit, a relic of the early space age."
     },
     {
       "noradId": "49296",
@@ -1164,7 +1164,7 @@
         "line1": "1 49296U 21090T   26052.64341476  .00000001  00000-0 -29881-4 0  9996",
         "line2": "2 49296  87.9199 297.5061 0001910  83.8321 276.3030 13.20770323214614"
       },
-      "education": null
+      "education": "OneWeb-0370 is part of the OneWeb constellation, launched in 2021. OneWeb aims to provide internet access to regions where fiber is impractical, especially in polar areas."
     },
     {
       "noradId": "49305",
@@ -1175,7 +1175,7 @@
         "line1": "1 49305U 21090AC  26052.64328450  .00000086  00000-0  19856-3 0  9996",
         "line2": "2 49305  87.9014 312.7529 0001541  78.9102 281.2201 13.14500986212388"
       },
-      "education": null
+      "education": "Another OneWeb satellite from the same batch, these spacecraft orbit in polar orbits at 1,200 km altitude – higher than Starlink – to cover the Arctic and northern latitudes."
     },
     {
       "noradId": "65340",
@@ -1186,7 +1186,7 @@
         "line1": "1 65340U 25189T   26052.64317191  .00021084  00000-0  72164-3 0  9998",
         "line2": "2 65340  53.1581 281.0147 0001230  87.7471 272.3671 15.30214157 28609"
       },
-      "education": null
+      "education": "Starlink-35020 is a V2 Mini satellite launched in 2025, part of SpaceX's effort to increase capacity and reduce latency. It features advanced phased‑array antennas and laser links."
     },
     {
       "noradId": "10539",
@@ -1197,7 +1197,7 @@
         "line1": "1 10539U 77123A   26052.64316968  .00000058  00000-0  38463-4 0  9997",
         "line2": "2 10539  75.8328 280.6326 0301541  90.0178 273.5509 13.89151145440006"
       },
-      "education": null
+      "education": "Cosmos 972 was a Soviet navigation satellite launched in 1977 as part of the Parus constellation. It provided positioning data for military and civilian use and operated for many years before becoming derelict."
     },
     {
       "noradId": "53993",
@@ -1208,7 +1208,7 @@
         "line1": "1 53993U 22125AF  26052.64316021 -.00000174  00000-0  71384-5 0  9990",
         "line2": "2 53993  53.2167 280.9121 0001305  89.1677 270.9464 15.08837654187101"
       },
-      "education": null
+      "education": "Starlink-5121 is part of SpaceX's Starlink constellation, launched in 2022. It operates in a 53° inclination shell and is equipped with autonomous collision avoidance systems."
     },
     {
       "noradId": "55741",
@@ -1219,7 +1219,7 @@
         "line1": "1 55741U 23028A   26052.64301194  .00000477  00000-0  47765-4 0  9991",
         "line2": "2 55741  69.9985 285.0310 0002983 269.9961  90.0856 14.98329782163824"
       },
-      "education": null
+      "education": "Starlink-5592 is a Starlink V1.5 satellite launched in 2023. It features laser inter‑satellite links to provide global coverage even over oceans and poles."
     },
     {
       "noradId": "62730",
@@ -1230,7 +1230,7 @@
         "line1": "1 62730U 25013B   26052.64301168  .00003401  00000-0  21062-3 0  9995",
         "line2": "2 62730  97.6446 222.0285 0014396  49.7067 310.5417 15.10391089 59881"
       },
-      "education": null
+      "education": "Object B is an unidentified payload or debris from a 2025 launch. Its purpose is unknown – it could be a test satellite, a deployment adapter, or a fragment."
     },
     {
       "noradId": "41875",
@@ -1241,7 +1241,7 @@
         "line1": "1 41875U 16073A   26052.64292009  .00000433  00000-0  93959-4 0  9998",
         "line2": "2 41875  98.1384 309.0465 0001341  80.0427 280.0926 14.62808075491931"
       },
-      "education": null
+      "education": "Object B is an unidentified payload or debris from a 2025 launch. Its purpose is unknown – it could be a test satellite, a deployment adapter, or a fragment."
     },
     {
       "noradId": "28325",
@@ -1252,7 +1252,7 @@
         "line1": "1 28325U 91082AN  26052.64291106  .00027519  00000-0  38504-2 0  9990",
         "line2": "2 28325  98.5697 295.0877 0028757 125.8358 262.4436 14.77236495125750"
       },
-      "education": null
+      "education": "This debris fragment comes from a US Air Force Defense Meteorological Satellite Program (DMSP) satellite launched in 1991. DMSP satellites provide weather data for military operations."
     },
     {
       "noradId": "25510",
@@ -1263,7 +1263,7 @@
         "line1": "1 25510U 98061C   26052.64290517  .00001213  00000-0  18526-3 0  9998",
         "line2": "2 25510  31.4330 264.3016 0305424 197.4729 161.5188 14.43755105434925"
       },
-      "education": null
+      "education": "A Delta II rocket body from a 1998 launch that deployed several Iridium satellites. Rocket bodies like this often remain in orbit for decades, contributing to debris."
     },
     {
       "noradId": "56417",
@@ -1274,7 +1274,7 @@
         "line1": "1 56417U 23061AV  26052.64289899 -.00003020  00000-0 -20865-3 0  9996",
         "line2": "2 56417  43.0028 271.4183 0001314 269.1090  90.9602 15.02530710154497"
       },
-      "education": null
+      "education": "Starlink-6261 is part of SpaceX's Starlink Group 6-1, launched in 2023. It operates in a 43° inclination orbit to serve mid‑latitude regions with high bandwidth."
     },
     {
       "noradId": "62976",
@@ -1285,7 +1285,7 @@
         "line1": "1 62976U 25030F   26052.64281235 -.00000082  00000-0  90610-4 0  9997",
         "line2": "2 62976  50.0050 290.0154 0000708 116.3815 243.7130 13.29337336 50491"
       },
-      "education": null
+      "education": "Hulianwang Digui-16 is a Chinese satellite from the Qianfan (Thousand Sails) internet constellation, launched in 2025 to provide global broadband connectivity."
     },
     {
       "noradId": "23439",
@@ -1296,7 +1296,7 @@
         "line1": "1 23439U 94085A   26052.64280819 -.00000078  00000-0 -10198-2 0  9998",
         "line2": "2 23439  64.8165 130.0871 0151994  25.0921 335.7293 11.27583306282876"
       },
-      "education": null
+      "education": "Radio Rosto was a Russian amateur radio satellite launched in 1994. It carried a transponder for ham radio operators and was part of the RS (Radio Sputnik) series."
     },
     {
       "noradId": "65946",
@@ -1307,7 +1307,7 @@
         "line1": "1 65946U 25227B   26052.64269619  .00007512  00000-0  25596-3 0  9991",
         "line2": "2 65946  80.1531 288.9251 0020238 325.9487  34.0446 15.30063664 20050"
       },
-      "education": null
+      "education": "Object B is an unidentified piece from a 2025 launch. Its nature is unclear – it may be a satellite, a rocket stage, or debris from a breakup."
     },
     {
       "noradId": "34446",
@@ -1318,7 +1318,7 @@
         "line1": "1 34446U 93036SP  26052.64269237  .00000336  00000-0  93625-4 0  9997",
         "line2": "2 34446  74.0404 284.3089 0050064  42.2815 318.2187 14.49442816897213"
       },
-      "education": null
+      "education": "A fragment from the 2009 collision between the defunct Russian satellite Cosmos 2251 and the operational Iridium 33. The crash created thousands of debris pieces, a wake‑up call for space situational awareness."
     },
     {
       "noradId": "25590",
@@ -1329,7 +1329,7 @@
         "line1": "1 25590U 98076A   26052.64263084  .00000049  00000-0  36353-4 0  9996",
         "line2": "2 25590  82.9330 291.6600 0032736  69.3246 319.5109 13.73225696360846"
       },
-      "education": null
+      "education": "Cosmos 2361 was a Russian military satellite launched in 1998, likely part of the Strela communications network. It relayed encrypted messages for Russian forces."
     },
     {
       "noradId": "16191",
@@ -1340,7 +1340,7 @@
         "line1": "1 16191U 85100A   26052.64261706  .00000062  00000-0  12855-3 0  9991",
         "line2": "2 16191  82.5473 117.7374 0018556 286.9540 227.6601 13.17314730939126"
       },
-      "education": null
+      "education": "Meteor 3-1 was a Soviet/Russian weather satellite launched in 1985, part of the Meteor series that provided global meteorological data for decades."
     },
     {
       "noradId": "26338",
@@ -1351,7 +1351,7 @@
         "line1": "1 26338U 99057HX  26052.64257456  .00000375  00000-0  12822-3 0  9999",
         "line2": "2 26338  98.7093 102.1439 0090250 147.5485  21.3952 14.39892175359839"
       },
-      "education": null
+      "education": "A fragment from a Chinese Long March 4 rocket launched in 1999. It's part of the debris population resulting from normal rocket stage disposal and fragmentation events."
     },
     {
       "noradId": "21386",
@@ -1362,7 +1362,7 @@
         "line1": "1 21386U 75052DG  26052.64254531  .00000465  00000-0  99613-3 0  9990",
         "line2": "2 21386  99.5686 107.1173 0183826 135.1386  18.1757 13.29177521677489"
       },
-      "education": null
+      "education": "A fragment from a Delta rocket launched in 1975. This piece is part of a debris cloud that has been circling Earth for nearly 50 years – a testament to the longevity of orbital junk."
     },
     {
       "noradId": "27473",
@@ -1373,7 +1373,7 @@
         "line1": "1 27473U 02037D   26052.64252650  .00000037  00000-0  66810-3 0  9994",
         "line2": "2 27473  63.4179 104.5787 0625639 348.0489 185.8166 12.01428668 34611"
       },
-      "education": null
+      "education": "The upper stage of a Russian Proton rocket that launched a GLONASS navigation satellite in 2002. Rocket bodies like this often remain in orbit long after their mission, adding to the debris population."
     },
     {
       "noradId": "56968",
@@ -1384,7 +1384,7 @@
         "line1": "1 56968U 23084AN  26052.64250815  .00097593  00000-0  78006-3 0  9994",
         "line2": "2 56968  97.4362 193.7805 0006204 279.9836  80.0726 15.70778891151043"
       },
-      "education": null
+      "education": "NUSAT-43 is a nanosatellite named in honor of Rose Dieng-Kuntz, a Senegalese‑French computer scientist and pioneer in artificial intelligence. It's part of a constellation for educational and technology demonstration missions."
     },
     {
       "noradId": "26227",
@@ -1395,7 +1395,7 @@
         "line1": "1 26227U 99057DR  26052.64241497  .00001566  00000-0  35488-3 0  9990",
         "line2": "2 26227  98.4857 111.6064 0070935  85.1127  67.2211 14.56023366366694"
       },
-      "education": null
+      "education": "A piece of a Chinese Long March 4 rocket launched in 1999. It's one of many fragments tracked by space surveillance networks, highlighting the challenge of tracking smaller debris."
     },
     {
       "noradId": "58210",
@@ -1406,7 +1406,7 @@
         "line1": "1 58210U 23170E   26052.64236671  .00013316  00000-0  10008-2 0  9994",
         "line2": "2 58210  43.0020 283.2846 0000347   5.2012 354.8834 15.02465341127864"
       },
-      "education": null
+      "education": "Starlink-30846 is part of SpaceX's second‑generation Starlink constellation, launched in 2023. These satellites feature laser inter‑satellite links to provide global coverage without needing ground stations everywhere."
     },
     {
       "noradId": "10674",
@@ -1417,7 +1417,7 @@
         "line1": "1 10674U 78018A   26052.64236341 -.00000012  00000-0  61806-4 0  9995",
         "line2": "2 10674  69.3628 124.2514 0166633 230.6004 295.0297 13.43710295355117"
       },
-      "education": null
+      "education": "UME 2, also known as ISS‑B, was a Japanese satellite launched in 1978 to study the ionosphere and plasma bubbles. It helped scientists understand radio propagation and space weather."
     },
     {
       "noradId": "43029",
@@ -1428,7 +1428,7 @@
         "line1": "1 43029U 17075B   26052.64230853  .00002849  00000-0  21488-3 0  9993",
         "line2": "2 43029  34.9930 254.1490 0004069 296.7506  63.2786 15.02053428449972"
       },
-      "education": null
+      "education": "Yaogan-30 E is a Chinese reconnaissance satellite launched in 2017. It's part of a constellation believed to be used for signals intelligence and electromagnetic surveillance."
     },
     {
       "noradId": "63963",
@@ -1439,7 +1439,7 @@
         "line1": "1 63963U 25099M   26052.64229841  .00024616  00000-0  90056-3 0  9995",
         "line2": "2 63963  43.0024 266.7102 0001466 275.5041  84.5643 15.27597707 44881"
       },
-      "education": null
+      "education": "Starlink-33801 is a V2 Mini satellite launched in 2025, equipped with more powerful phased‑array antennas and increased bandwidth to serve remote and rural areas."
     },
     {
       "noradId": "62887",
@@ -1450,7 +1450,7 @@
         "line1": "1 62887U 25024J   26052.64229207  .00040058  00000-0  31352-3 0  9995",
         "line2": "2 62887  42.9981 278.1044 0001641 270.3516  89.7164 15.70888826 60945"
       },
-      "education": null
+      "education": "Starlink-11436 is another V2 Mini satellite from SpaceX's ever‑growing constellation. It orbits in a 43° inclination shell, helping to provide low‑latency internet across densely populated regions."
     },
     {
       "noradId": "39177",
@@ -1461,7 +1461,7 @@
         "line1": "1 39177U 13028A   26052.64225228  .00000122  00000-0  37373-4 0  9999",
         "line2": "2 39177  98.0008  24.6269 0011654  22.5135 337.6573 14.56131974674561"
       },
-      "education": null
+      "education": "Cosmos 2486 is a Russian military reconnaissance satellite, part of the Persona high-resolution optical imaging system. Launched in 2013, it provides detailed imagery for defense and intelligence purposes."
     },
     {
       "noradId": "59328",
@@ -1472,7 +1472,7 @@
         "line1": "1 59328U 24057J   26052.64225146 -.00000082  00000-0  65536-5 0  9991",
         "line2": "2 59328  43.0056 277.8020 0002422 251.4435 108.6154 15.27570807107383"
       },
-      "education": null
+      "education": "Starlink-31614 is a V2 Mini satellite from SpaceX's Starlink constellation, launched in 2024. It features advanced phased-array antennas and laser links to provide high-speed internet globally, especially in remote areas."
     },
     {
       "noradId": "57681",
@@ -1483,7 +1483,7 @@
         "line1": "1 57681U 23124U   26052.64220211  .00000727  00000-0  36677-4 0  9991",
         "line2": "2 57681  53.1591 281.5719 0001204  84.2424 275.8715 15.30196749141104"
       },
-      "education": null
+      "education": "Starlink-30273 is part of SpaceX's Starlink Group 6-24, launched in 2023. These satellites orbit at 53° inclination and are designed to offer low-latency broadband to users worldwide."
     },
     {
       "noradId": "5721",
@@ -1494,7 +1494,7 @@
         "line1": "1 05721U 71117A   26052.64220004 -.00000062  00000-0  28555-4 0  9993",
         "line2": "2 05721  64.4873 289.3476 0064944 287.4520  71.9440 13.76142890721223"
       },
-      "education": null
+      "education": "Cosmos 469 was a Soviet military satellite launched in 1971, part of the DS-P1-Yu series used for calibration and testing of ground-based radar systems. It reentered the atmosphere after several months."
     },
     {
       "noradId": "210",
@@ -1505,7 +1505,7 @@
         "line1": "1 00210U 61015BE  26052.64217905  .00000475  00000-0  45374-3 0  9997",
         "line2": "2 00210  66.4567 290.7311 0044497  18.9558 341.3161 13.88943310249358"
       },
-      "education": null
+      "education": "This debris fragment comes from a Thor AbleStar rocket launched in 1961. It's one of the oldest pieces of space junk still being tracked, a relic from the early days of the space age."
     },
     {
       "noradId": "9904",
@@ -1516,7 +1516,7 @@
         "line1": "1 09904U 77024B   26052.64214714  .00000126  00000-0  66443-4 0  9992",
         "line2": "2 09904  81.2619 304.7506 0056055  33.1307 327.3352 14.07299112508536"
       },
-      "education": null
+      "education": "The SL-3 rocket body is the upper stage of a Soviet Vostok-2M rocket that launched a Meteor weather satellite in 1977. It remains in orbit as a large piece of debris, slowly tumbling over decades."
     },
     {
       "noradId": "60437",
@@ -1527,7 +1527,7 @@
         "line1": "1 60437U 24144N   26052.64212564  .00000597  00000-0  32281-4 0  9991",
         "line2": "2 60437  53.1604 291.5672 0000974 100.3311 259.7800 15.30202049 86856"
       },
-      "education": null
+      "education": "Starlink-32241 is a V2 Mini satellite launched in 2024, part of SpaceX's effort to provide global internet coverage. It operates in a 53° inclination shell and helps reduce latency for users in mid-latitudes."
     },
     {
       "noradId": "51444",
@@ -1538,7 +1538,7 @@
         "line1": "1 51444U 22008A   26052.64209765 -.00000176  00000-0 -15591-4 0  9995",
         "line2": "2 51444  97.8843 237.9102 0001375  77.8432 282.2936 14.82156262219472"
       },
-      "education": null
+      "education": "CSG-2 (COSMO-SkyMed Second Generation 2) is an Italian Earth observation satellite launched in 2022. It uses synthetic aperture radar to monitor the planet for environmental and security applications, day or night, regardless of weather."
     },
     {
       "noradId": "5922",
@@ -1549,7 +1549,7 @@
         "line1": "1 05922U 60016E   26052.64209151 -.00000067  00000-0  70208-4 0  9999",
         "line2": "2 05922  47.0304 265.1746 0040747 263.7308 138.1040 13.70052366735601"
       },
-      "education": null
+      "education": "A fragment from TIROS-2, an early weather satellite launched by NASA in 1960. TIROS-2 tested experimental television cameras to observe cloud cover, paving the way for modern meteorological satellites."
     },
     {
       "noradId": "67540",
@@ -1560,7 +1560,7 @@
         "line1": "1 67540U 26014J   26052.64208473  .00393672  00000-0  25035-2 0  9991",
         "line2": "2 67540  97.2825 296.7260 0002175 135.8062 224.3378 15.75346689  6042"
       },
-      "education": null
+      "education": "Starlink-36585 is a Starlink satellite launched in 2026 as part of the ongoing deployment. It's designed to provide high-speed internet to underserved areas and is part of the constellation that now numbers thousands."
     },
     {
       "noradId": "53664",
@@ -1571,7 +1571,7 @@
         "line1": "1 53664U 22105S   26052.64192787 -.00000492  00000-0 -29893-4 0  9995",
         "line2": "2 53664  97.6019 295.3595 0003921  57.4056 302.7549 15.05640613190885"
       },
-      "education": null
+      "education": "Starlink-4471 is a Starlink satellite launched in 2022. It operates in a 97.6° inclination sun-synchronous orbit, providing coverage to polar regions as part of SpaceX's commitment to global connectivity."
     },
     {
       "noradId": "64514",
@@ -1582,7 +1582,7 @@
         "line1": "1 64514U 25134Q   26052.64191010  .00003120  00000-0  43820-3 0  9998",
         "line2": "2 64514  51.8979 289.0327 0000372  95.9805 264.1200 14.79916306 37900"
       },
-      "education": null
+      "education": "Kuiper-00054 is a test satellite for Amazon's Project Kuiper, a planned constellation to provide broadband internet. Launched in 2025, it helps validate technology for the future megaconstellation."
     },
     {
       "noradId": "61977",
@@ -1593,7 +1593,7 @@
         "line1": "1 61977U 24210U   26052.64190042  .00030337  00000-0  11070-2 0  9997",
         "line2": "2 61977  42.9987 270.6221 0000614 315.5777  44.5026 15.27593260 72467"
       },
-      "education": null
+      "education": "Starlink-32607 is a Starlink V2 Mini satellite launched in 2024, equipped with improved hardware to handle higher data throughput and reduce latency for users worldwide."
     },
     {
       "noradId": "52747",
@@ -1604,7 +1604,7 @@
         "line1": "1 52747U 22057R   26052.64187485  .00289806  00000-0  10347-2 0  9999",
         "line2": "2 52747  97.5016 200.7973 0005193 301.3322  58.7441 15.88139978209497"
       },
-      "education": null
+      "education": "NUSAT-28 is a nanosatellite named after Alice Lee, a mathematician and pioneer in crystallography. Launched in 2022, it's part of a constellation of educational and technology demonstration CubeSats."
     },
     {
       "noradId": "54142",
@@ -1615,7 +1615,7 @@
         "line1": "1 54142U 22138AF  26052.64184551 -.00000016  00000-0 -70162-4 0  9990",
         "line2": "2 54142  87.9192 297.5058 0002565  89.7302 270.4125 13.20789703164054"
       },
-      "education": null
+      "education": "OneWeb-0524 is a satellite from the OneWeb constellation, launched in 2022. OneWeb aims to provide low-latency internet connectivity to remote and rural areas, with a focus on serving the Arctic region."
     },
     {
       "noradId": "60845",
@@ -1626,7 +1626,7 @@
         "line1": "1 60845U 24140HY  26052.64181620  .00000547  00000-0  10933-3 0  9992",
         "line2": "2 60845  89.0346 286.5364 0121477 287.1529  71.6410 14.55927354 81143"
       },
-      "education": null
+      "education": "A fragment from a Chinese Long March 6A rocket launched in 2024. The upper stage fragmented, creating a debris field. This piece is tracked by space surveillance networks to monitor the growing debris environment."
     },
     {
       "noradId": "53981",
@@ -1637,7 +1637,7 @@
         "line1": "1 53981U 22125T   26052.64178085 -.00000207  00000-0  50763-5 0  9998",
         "line2": "2 53981  53.2183 275.9391 0001521 107.7543 252.3615 15.08839082187185"
       },
-      "education": null
+      "education": "Starlink-5149 is part of SpaceX's Starlink Group 5-1, launched in 2022. It operates in a 53° inclination orbit and helps provide low‑latency broadband internet to users worldwide."
     },
     {
       "noradId": "56414",
@@ -1648,7 +1648,7 @@
         "line1": "1 56414U 23061AS  26052.64178042 -.00000685  00000-0 -35648-4 0  9990",
         "line2": "2 56414  43.0031 271.4047 0000980 262.6294  97.4437 15.02533730154492"
       },
-      "education": null
+      "education": "Another Starlink satellite from the same launch, these spacecraft are equipped with Hall-effect ion thrusters to raise orbit and perform collision avoidance maneuvers."
     },
     {
       "noradId": "21515",
@@ -1659,7 +1659,7 @@
         "line1": "1 21515U 75052GL  26052.64172130  .00000285  00000-0  91149-3 0  9994",
         "line2": "2 21515  99.7135 114.8256 0274602 135.5750  17.5244 12.98722917647686"
       },
-      "education": null
+      "education": "A fragment from a Delta rocket launched in 1975. It's one of many pieces from decades of space activity, illustrating the long‑term problem of orbital debris."
     },
     {
       "noradId": "55811",
@@ -1670,7 +1670,7 @@
         "line1": "1 55811U 23029R   26052.64169170  .00000115  00000-0  27595-3 0  9993",
         "line2": "2 55811  87.9015 312.7499 0001280 117.9647 242.1612 13.14503628144216"
       },
-      "education": null
+      "education": "OneWeb-0648 is part of the OneWeb internet constellation, launched in 2023. OneWeb satellites orbit in polar orbits at 1,200 km altitude, focusing on coverage of northern latitudes."
     },
     {
       "noradId": "60388",
@@ -1681,7 +1681,7 @@
         "line1": "1 60388U 24140K   26052.64165929  .00000091  00000-0  12181-3 0  9999",
         "line2": "2 60388  88.9750 291.3648 0014259 337.2157  22.8360 13.51001446 77039"
       },
-      "education": null
+      "education": "Qianfan-10 belongs to China's Qianfan (Thousand Sails) megaconstellation, designed to provide global internet. Launched in 2024, it's part of a planned network of thousands of satellites."
     },
     {
       "noradId": "63347",
@@ -1692,7 +1692,7 @@
         "line1": "1 63347U 25059D   26052.64157420  .00004191  00000-0  26037-3 0  9994",
         "line2": "2 63347  97.6075 234.7132 0012275 177.1212 183.0090 15.10155952 50852"
       },
-      "education": null
+      "education": "Yunyao-1 46 is a Chinese satellite from the Yunyao constellation, likely used for remote sensing or meteorological data collection. Launched in 2025, it contributes to Earth observation."
     },
     {
       "noradId": "20902",
@@ -1703,7 +1703,7 @@
         "line1": "1 20902U 90081BN  26052.64154113  .00001044  00000-0  69983-3 0  9998",
         "line2": "2 20902  99.3437 204.1570 0080836 135.4455 285.8034 14.01619262798715"
       },
-      "education": null
+      "education": "A fragment from a Chinese Long March 4 rocket launched in 1990. It's part of the debris population that has accumulated over 30 years from routine launches."
     },
     {
       "noradId": "55823",
@@ -1714,7 +1714,7 @@
         "line1": "1 55823U 23029AD  26052.64143053  .00000022  00000-0  21710-4 0  9999",
         "line2": "2 55823  87.9207 297.5668 0001354  96.3509 263.7779 13.20860674145891"
       },
-      "education": null
+      "education": "OneWeb-0663 is another satellite in the OneWeb fleet. These satellites are built on an assembly line in Florida and are designed for a five‑year operational life before deorbiting."
     },
     {
       "noradId": "25411",
@@ -1725,7 +1725,7 @@
         "line1": "1 25411U 98045E   26052.64137686  .00000071  00000-0  10873-3 0  9995",
         "line2": "2 25411  70.9854 280.3870 0212664 274.6574  83.0267 13.71345869378913"
       },
-      "education": null
+      "education": "Debris from a Zenit-2 rocket (SL-16) that launched a Russian satellite in 1998. Zenit rockets were a Soviet design, and their upper stages often fragment in orbit."
     },
     {
       "noradId": "59760",
@@ -1736,7 +1736,7 @@
         "line1": "1 59760U 24091H   26052.64128288 -.00001572  00000-0 -81214-5 0  9995",
         "line2": "2 59760  53.1588 285.3082 0001099  89.8418 270.2726 15.69699250102993"
       },
-      "education": null
+      "education": "Starlink-11098 is a Starlink satellite launched in 2024. It operates in a 53° inclination shell and is part of the constellation's second generation, offering higher bandwidth and reduced latency."
     },
     {
       "noradId": "21876",
@@ -1747,7 +1747,7 @@
         "line1": "1 21876U 92008B   26052.64114060  .00000014  00000-0 -12856-5 0  9993",
         "line2": "2 21876  82.9241 279.7187 0034649 177.3977 193.1986 13.75970051707212"
       },
-      "education": null
+      "education": "This is the upper stage of a Russian Kosmos-3M rocket that launched a military satellite in 1992. Rocket bodies like this remain in orbit for decades, posing collision risks."
     },
     {
       "noradId": "4687",
@@ -1758,7 +1758,7 @@
         "line1": "1 04687U 70025BL  26052.64113521  .00000160  00000-0  31180-3 0  9990",
         "line2": "2 04687  99.5474 201.8930 0027743 213.9945 210.5298 13.51203140748673"
       },
-      "education": null
+      "education": "A fragment from a Thorad Agena D rocket launched in 1970. The Agena upper stage was used for many US Air Force missions, and debris from its breakups still circles Earth."
     },
     {
       "noradId": "4986",
@@ -1769,7 +1769,7 @@
         "line1": "1 04986U 70025HG  26052.64112888  .00000059  00000-0  17861-3 0  9994",
         "line2": "2 04986  99.7672 303.0597 0054187 352.9366  36.2430 13.42917184735110"
       },
-      "education": null
+      "education": "Another piece from the same Thorad Agena D rocket family. Over 50 years later, it remains in orbit, a silent witness to the early space age."
     },
     {
       "noradId": "62235",
@@ -1780,7 +1780,7 @@
         "line1": "1 62235U 24231T   26052.64109567  .00020345  00000-0  69677-3 0  9995",
         "line2": "2 62235  53.1590 281.2296 0001373  67.0043 293.1102 15.30217351 69480"
       },
-      "education": null
+      "education": "Starlink-32631 is a V2 Mini satellite launched in 2024, featuring advanced phased‑array antennas and laser links to provide high‑speed internet globally."
     },
     {
       "noradId": "12670",
@@ -1791,7 +1791,7 @@
         "line1": "1 12670U 81053AA  26052.64108847  .00000469  00000-0  42368-3 0  9991",
         "line2": "2 12670  82.9396 291.0323 0056953  31.7283 357.0227 13.81045801237826"
       },
-      "education": null
+      "education": "A fragment from the Cosmos 1275 satellite, which broke apart in 1981 under mysterious circumstances – possibly due to a collision with debris or an onboard explosion."
     },
     {
       "noradId": "40286",
@@ -1802,7 +1802,7 @@
         "line1": "1 40286U 14066A   26052.64107411  .00000764  00000-0  14862-3 0  9997",
         "line2": "2 40286  98.3311 195.6487 0011131 231.0834 128.9378 14.65999039604288"
       },
-      "education": null
+      "education": "SJ-11-08 (Shijian-11-08) is a Chinese technology demonstration satellite launched in 2014. It's part of a series testing new bus designs and space environment monitoring."
     },
     {
       "noradId": "59997",
@@ -1813,7 +1813,7 @@
         "line1": "1 59997U 90086G   26052.64106228  .00001119  00000-0  89294-3 0  9993",
         "line2": "2 59997  82.5188 286.0666 0019794 309.2946  50.6461 13.90133223119055"
       },
-      "education": null
+      "education": "A piece of debris from the Meteor 2-20 weather satellite, launched in 1990. Meteor satellites were the Soviet Union's primary meteorological network, providing global weather data."
     },
     {
       "noradId": "49147",
