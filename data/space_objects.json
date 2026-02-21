@@ -31,7 +31,7 @@
         "line1": "1 08753U 76023H   26057.53226276 -.00000923  00000-0  00000-0 0  9999",
         "line2": "2 08753  11.8798 347.9441 0293037  95.2873 359.3957  0.18713988  5202"
       },
-      "education": null
+      "education": "This rocket body helped launch SOLRAD 11, a US Navy satellite that studied solar radiation and tested anti-satellite weapons."
     },
     {
       "noradId": "837",
@@ -42,7 +42,7 @@
         "line1": "1 00837U 64040B   26056.19462370 -.00000152  00000-0  00000-0 0  9992",
         "line2": "2 00837  48.8006 124.6189 5638349 256.6952 359.6916  0.23997293 54451"
       },
-      "education": null
+      "education":  "VELA 4 was part of a secret program to detect nuclear explosions in space. It also discovered mysterious gamma-ray bursts!"
     },
     {
       "noradId": "41929",
@@ -53,7 +53,7 @@
         "line1": "1 41929U 15019C   26055.93232102 -.00000212  00000-0  00000-0 0  9997",
         "line2": "2 41929  11.5947 108.0828 6814639 294.2557 358.5819  0.27910999 10468"
       },
-      "education": null
+      "education": "Upper stage of a Chinese Long March rocket that launched the YZ-1 satellite. It's now space junk in a high orbit."
     },
     {
       "noradId": "13901",
@@ -64,7 +64,7 @@
         "line1": "1 13901U 83020A   26055.73768974  .00000194  00000-0  00000-0 0  9990",
         "line2": "2 13901  78.5203  58.6872 6477572  49.8181   0.5647  0.24281523 10871"
       },
-      "education": null
+      "education": "A Soviet ultraviolet telescope that operated from 1983 to 1989. It studied stars and galaxies in UV light."
     },
     {
       "noradId": "25867",
@@ -75,7 +75,7 @@
         "line1": "1 25867U 99040B   26055.66410191  .00000964  00000-0  00000-0 0  9995",
         "line2": "2 25867  54.3475 120.0248 8022301 310.7542   0.2480  0.37806368 16892"
       },
-      "education": null
+      "education": "Chandra X-ray Observatory – one of NASA's Great Observatories. It captures X-rays from black holes and supernovae."
     },
     {
       "noradId": "20413",
@@ -86,7 +86,7 @@
         "line1": "1 20413U 83020D   26055.09879624  .00000101  00000-0  00000-0 0  9998",
         "line2": "2 20413  77.5557  59.2586 6637676  49.1787   0.7020  0.24717620 11077"
       },
-      "education": null
+      "education": "A Soviet rocket stage from 1983 that helped launch a GLONASS navigation satellite. It's still orbiting Earth."
     },
     {
       "noradId": "3956",
@@ -97,7 +97,7 @@
         "line1": "1 03956U 69046F   26054.84768955 -.00000885  00000-0  00000-0 0  9999",
         "line2": "2 03956  17.1114  36.0823 8033063 268.4200   0.9030  0.46192372 20577"
       },
-      "education": null
+      "education": "This Titan rocket stage from 1969 is in a highly elliptical orbit. It's one of the oldest large debris objects."
     },
     {
       "noradId": "25990",
@@ -108,7 +108,7 @@
         "line1": "1 25990U 99066B   26054.30410463  .00000028  00000-0  00000-0 0  9993",
         "line2": "2 25990  71.2292 305.9456 6240002 111.3091   0.3566  0.55298661 24729"
       },
-      "education": null
+      "education": "Ariane 5 upper stage from 1999 that launched the XMM-Newton X-ray telescope. It's in a long, looping orbit."
     },
     {
       "noradId": "50000",
@@ -119,7 +119,7 @@
         "line1": "1 50000U 70027C   26054.05976099 -.00000121  00000-0  00000-0 0  9998",
         "line2": "2 50000  44.0163  70.2495 7045432 198.8828   0.6086  0.44277270 90654"
       },
-      "education": null
+      "education": "Another Titan rocket body from 1970. It's in a highly inclined orbit, slowly tumbling through space."
     },
     {
       "noradId": "25989",
@@ -130,7 +130,7 @@
         "line1": "1 25989U 99066A   26053.66352875  .00000176  00000-0  00000-0 0  9995",
         "line2": "2 25989  65.0633 284.4839 4718266  66.9382 359.9197  0.50126610 22428"
       },
-      "education": null
+      "education": "XMM-Newton is ESA's X-ray space observatory. It studies black holes, neutron stars, and galaxy clusters."
     },
     {
       "noradId": "22049",
@@ -141,7 +141,7 @@
         "line1": "1 22049U 92044A   26053.48511089 -.00000833  00000-0  00000-0 0  9993",
         "line2": "2 22049  45.1094 350.5568 5791514 274.2800   2.1021  0.19136857 15539"
       },
-      "education": null
+      "education": "Joint NASA-JAXA mission to study Earth's magnetotail. It has been observing since 1992."
     },
     {
       "noradId": "2770",
@@ -152,7 +152,7 @@
         "line1": "1 02770U 67040F   26053.44740699 -.00000433  00000-0  00000-0 0  9993",
         "line2": "2 02770  16.7422 210.9180 7890509 348.9223 359.2007  0.50933543 22721"
       },
-      "education": null
+      "education":  "Titan rocket stage from 1967. It's one of the earliest pieces of large debris still in orbit."
     },
     {
       "noradId": "60326",
@@ -163,7 +163,7 @@
         "line1": "1 60326U 24048E   26053.36658101 -.00000917  00000-0  53056-2 0  9990",
         "line2": "2 60326  17.5132 315.8818 8973343 226.5060 359.1175  0.47342776  3183"
       },
-      "education": null
+      "education": "A Chinese rocket body from 2024. It's in a highly elliptical orbit, part of the growing debris population."
     },
     {
       "noradId": "8748",
@@ -174,7 +174,7 @@
         "line1": "1 08748U 76023C   26053.08838032 -.00000556  00000-0  00000-0 0  9990",
         "line2": "2 08748  14.7287 352.7237 0081215 210.1891  11.1678  0.19674415  5248"
       },
-      "education": null
+      "education": "SOLRAD 11A was a US Navy satellite that monitored solar X-rays. It's still in low Earth orbit."
     },
     {
       "noradId": "82250",
@@ -295,7 +295,7 @@
         "line1": "1 59282U 24052C   26052.65360329  .00000043  00000-0  81890-4 0  9995",
         "line2": "2 59282  50.0092 272.0090 0006617 115.5536 244.6064 14.27914973 98291"
       },
-      "education": null
+      "education": "YUNHAI 2-2C is a Chinese meteorological satellite used for atmospheric research and cloud monitoring."
     },
     {
       "noradId": "25946",
@@ -306,7 +306,7 @@
         "line1": "1 25946U 99058D   26052.65328623 -.00000151  00000-0 -60912-3 0  9997",
         "line2": "2 25946  51.9958 125.2279 0000744 343.3613 183.4774 12.16049132194895"
       },
-      "education": null
+      "education": "Globalstar M031 is one of the Globalstar mobile communications satellites, providing satellite phone and data services worldwide."
     },
     {
       "noradId": "5218",
@@ -317,7 +317,7 @@
         "line1": "1 05218U 71041J   26052.65314313 -.00000046  00000-0 -24787-3 0  9993",
         "line2": "2 05218  74.0266 285.2129 0066931 310.5537  77.1027 12.32228334680582"
       },
-      "education": null
+      "education": "This is a Soviet SL-8 rocket body from 1971, part of the Kosmos-3M launch vehicle. It's been orbiting for over 50 years."
     },
     {
       "noradId": "30566",
@@ -328,7 +328,7 @@
         "line1": "1 30566U 99025ALG 26052.65309069  .00001645  00000-0  90550-3 0  9996",
         "line2": "2 30566  99.2102 108.1032 0065097 343.8131 167.8296 14.12043311973839"
       },
-      "education": null
+      "education": "A piece of debris from the 2007 Chinese anti-satellite missile test that destroyed the Fengyun-1C weather satellite, creating one of the worst debris clouds in history."
     },
     {
       "noradId": "58849",
@@ -339,7 +339,7 @@
         "line1": "1 58849U 24018A   26052.65279546  .00001310  00000-0  16672-3 0  9998",
         "line2": "2 58849  58.6876 274.5150 0429788 330.3194  27.4051 14.38963228108544"
       },
-      "education": null
+      "education": "An unidentified object from a recent launch. Its purpose is unknown – could be a satellite, a rocket part, or something else."
     },
     {
       "noradId": "63296",
@@ -350,7 +350,7 @@
         "line1": "1 63296U 25055F   26052.65266782  .00010363  00000-0  56695-3 0  9997",
         "line2": "2 63296  97.6354 191.6934 0012967 162.9185 197.2485 15.14381395 51509"
       },
-      "education": null
+      "education": "Another unidentified piece from a 2025 launch. Cataloged as 'OBJECT F', it's likely a deployment adapter or debris."
     },
     {
       "noradId": "62336",
@@ -361,7 +361,7 @@
         "line1": "1 62336U 24241D   26052.65177720  .00000287  00000-0  19656-4 0  9991",
         "line2": "2 62336  97.5169   1.5883 0001699  95.3027 264.8398 15.13460148 65324"
       },
-      "education": null
+      "education": "PIESAT-2 12 is a Chinese commercial remote sensing satellite, part of a constellation for Earth observation."
     },
     {
       "noradId": "55975",
@@ -372,7 +372,7 @@
         "line1": "1 55975U 23039C   26052.65161692  .00016248  00000-0  36443-3 0  9993",
         "line2": "2 55975  97.5139 222.0951 0003253 166.7508 193.3826 15.43481100162978"
       },
-      "education": null
+      "education": "Tianmu-1 05 is a Chinese satellite for scientific research and technology demonstration."
     },
     {
       "noradId": "49393",
@@ -383,7 +383,7 @@
         "line1": "1 49393U 21101D   26052.65159181  .00011877  00000-0  49651-3 0  9996",
         "line2": "2 49393  35.0031 271.5227 0008439  96.6223 263.5452 15.22784484239387"
       },
-      "education": null
+      "education": "Yaogan-35 C is a Chinese reconnaissance satellite used for Earth observation, likely for military or civilian purposes."
     },
     {
       "noradId": "21277",
@@ -394,7 +394,7 @@
         "line1": "1 21277U 75052N   26052.65152991  .00000155  00000-0  46633-3 0  9997",
         "line2": "2 21277  99.7256 194.5912 0133849 137.9001 293.3761 13.19238289674755"
       },
-      "education": null
+      "education": "This debris fragment comes from a Delta rocket launched in 1975. It's part of the growing cloud of old rocket parts orbiting Earth."
     },
     {
       "noradId": "17638",
@@ -405,7 +405,7 @@
         "line1": "1 17638U 81053LH  26052.65129926  .00000525  00000-0  52803-3 0  9990",
         "line2": "2 17638  82.9931  13.3992 0103113 190.1714 290.2666 13.73436619 29069"
       },
-      "education": null
+      "education": "A fragment from Cosmos 1275, a Soviet navigation satellite that mysteriously broke apart in 1981 – possibly due to a collision."
     },
     {
       "noradId": "58929",
@@ -416,7 +416,7 @@
         "line1": "1 58929U 24026A   26052.65126682  .00030338  00000-0  20105-3 0  9996",
         "line2": "2 58929  96.6361 301.8611 0002854  69.5954 290.5619 15.75462439117448"
       },
-      "education": null
+      "education": "Cosmos 2575 is a modern Russian military satellite, likely for communications or reconnaissance."
     },
     {
       "noradId": "33966",
@@ -427,7 +427,7 @@
         "line1": "1 33966U 97051CB  26052.65078998  .00002025  00000-0  51840-3 0  9996",
         "line2": "2 33966  86.3950  15.5787 0006896 347.0262 136.9269 14.49956489894697"
       },
-      "education": null
+      "education": "Debris from the 2009 Iridium 33 – Cosmos 2251 collision, the first major accidental hypervelocity crash between two satellites."
     },
     {
       "noradId": "52751",
@@ -438,7 +438,7 @@
         "line1": "1 52751U 22057V   26052.65063301  .00011068  00000-0  32220-3 0  9993",
         "line2": "2 52751  97.6436 196.1944 0006838 142.9789 217.1927 15.35574036207968"
       },
-      "education": null
+      "education": "A mysterious object cataloged as 'OBJECT V' from a 2022 launch – possibly a deployment adapter or mission-related hardware."
     },
     {
       "noradId": "8185",
@@ -449,7 +449,7 @@
         "line1": "1 08185U 74089BB  26052.65052266  .00000005  00000-0  34891-3 0  9990",
         "line2": "2 08185 101.5375 338.2459 0069854  14.2277 103.6543 12.40506010320438"
       },
-      "education": null
+      "education": "A piece of a Thorad Delta rocket from 1974. It's been in space for over 50 years, a testament to the longevity of orbital debris."
     },
     {
       "noradId": "40555",
@@ -460,7 +460,7 @@
         "line1": "1 40555U 15020D   26052.65013735  .00000272  00000-0  96881-4 0  9999",
         "line2": "2 40555  82.5224 320.6028 0606914 228.3098 126.4594 13.61323667534475"
       },
-      "education": null
+      "education": "Cosmos 2504 is a Russian satellite that demonstrated orbital maneuvers and debris inspection technologies."
     },
     {
       "noradId": "25369",
@@ -471,7 +471,7 @@
         "line1": "1 25369U 98036G   26052.64974086  .00000028  00000-0  16155-3 0  9991",
         "line2": "2 25369  82.5924 132.1806 0344022  13.3270 157.5512 12.14696467227530"
       },
-      "education": null
+      "education": "A Soviet Tsyklon-3 rocket stage from 1998 that placed a Meteor satellite into orbit. It remains in a medium Earth orbit."
     },
     {
       "noradId": "11131",
@@ -482,7 +482,7 @@
         "line1": "1 11131U 78109D   26052.64953888  .00000007  00000-0  15518-3 0  9998",
         "line2": "2 11131  74.0171 135.4914 0027515 194.9336 236.3816 12.49310831153304"
       },
-      "education": null
+      "education": "Cosmos 1054 was a Soviet navigation satellite from 1978, part of the Parus constellation used for submarine communications."
     },
     {
       "noradId": "17140",
@@ -493,7 +493,7 @@
         "line1": "1 17140U 86092C   26052.64949154  .00000003  00000-0  12866-3 0  9994",
         "line2": "2 17140  74.0133 122.8838 0016267 254.5270 274.0530 12.49641649790746"
       },
-      "education": null
+      "education": "A Soviet geodetic satellite from 1986, used to measure Earth's gravitational field."
     },
     {
       "noradId": "18791",
@@ -504,7 +504,7 @@
         "line1": "1 18791U 88002D   26052.64941382  .00000030  00000-0  10364-3 0  9996",
         "line2": "2 18791  82.6118 312.3343 0010984  10.2641   0.7030 12.65067936759285"
       },
-      "education": null
+      "education": "Another Soviet navigation satellite, launched in 1988. It's part of the long-lived Parus series."
     },
     {
       "noradId": "11326",
@@ -515,7 +515,7 @@
         "line1": "1 11326U 79030A   26052.64929365  .00000080  00000-0  66755-4 0  9992",
         "line2": "2 11326  82.9502 131.3730 0030352  64.7584  99.7333 13.75647715586500"
       },
-      "education": null
+      "education": "A Soviet early-warning satellite from 1979, designed to detect missile launches."
     },
     {
       "noradId": "25854",
@@ -526,7 +526,7 @@
         "line1": "1 25854U 99037D   26052.64899361 -.00000111  00000-0 -75676-3 0  9992",
         "line2": "2 25854  51.9895 309.3380 0004174 115.2042 244.9208 11.55106071178877"
       },
-      "education": null
+      "education":  "Globalstar M030 is one of the original Globalstar satellites, launched in 1999 to provide mobile communications."
     },
     {
       "noradId": "49029",
@@ -537,7 +537,7 @@
         "line1": "1 49029U 21065D   26052.64872104  .00002804  00000-0  21168-3 0  9990",
         "line2": "2 49029  34.9936 256.5217 0004279 328.8492  31.1962 15.02018134251270"
       },
-      "education": null
+      "education": "Yaogan-30 AF is a Chinese reconnaissance satellite, part of a constellation used for electromagnetic surveillance."
     },
     {
       "noradId": "21516",
@@ -548,7 +548,7 @@
         "line1": "1 21516U 75052GM  26052.64870468  .00000181  00000-0  45082-3 0  9994",
         "line2": "2 21516  99.7948 191.4967 0070234 227.6519 200.4807 13.32946875678862"
       },
-      "education": null
+      "education": "Another fragment from a 1975 Delta rocket, cataloged separately. It shows how a single breakup can create hundreds of trackable pieces."
     },
     {
       "noradId": "15483",
@@ -559,7 +559,7 @@
         "line1": "1 15483U 85006B   26052.64864187  .00000126  00000-0  50370-4 0  9997",
         "line2": "2 15483  74.0449 290.6672 0019077 211.8911 178.3539 14.37774290151726"
       },
-      "education": null
+      "education": "A Soviet Kosmos-3M rocket body from 1985. It launched a navigation satellite and is now derelict."
     },
     {
       "noradId": "4950",
@@ -570,7 +570,7 @@
         "line1": "1 04950U 70025GL  26052.64854341  .00000107  00000-0  37877-3 0  9995",
         "line2": "2 04950  99.8446 314.3339 0219871 286.6418 100.0478 13.10171880668379"
       },
-      "education": null
+      "education": "Debris from a Thorad Agena rocket launched in 1970. It's one of the oldest pieces of debris still tracked."
     },
     {
       "noradId": "8891",
@@ -581,7 +581,7 @@
         "line1": "1 08891U 76054C   26052.64848713 -.00000008  00000-0  48501-4 0  9995",
         "line2": "2 08891  73.9999 288.4982 0048223  94.2224 294.3138 12.53307638691078"
       },
-      "education": null
+      "education": "Cosmos 827 was a Soviet navigation satellite from 1976. It operated for several years before becoming inactive."
     },
     {
       "noradId": "53947",
@@ -592,7 +592,7 @@
         "line1": "1 53947U 22120E   26052.64833876  .00011229  00000-0  33548-3 0  9996",
         "line2": "2 53947  35.0024 259.0642 0002903 195.6300 164.4328 15.33780116190025"
       },
-      "education": null
+      "education": "Yaogan-36 01C is a Chinese remote sensing satellite, likely used for Earth observation and reconnaissance."
     },
     {
       "noradId": "12298",
@@ -603,7 +603,7 @@
         "line1": "1 12298U 81013B   26052.64831231  .00000062  00000-0  47222-4 0  9997",
         "line2": "2 12298  82.9510 134.7819 0029884  19.3322 154.7288 13.76930589261356"
       },
-      "education": null
+      "education": "Another Kosmos-3M rocket body from 1981. It placed a navigation satellite into orbit and remains as debris."
     },
     {
       "noradId": "63261",
@@ -614,7 +614,7 @@
         "line1": "1 63261U 25052BD  26052.64822747  .00006014  00000-0  51426-3 0  9999",
         "line2": "2 63261  97.7029 307.4900 0003334  86.7001 273.4602 14.97986797 51436"
       },
-      "education": null
+      "education": "Lemur-2 EmersonRose is a tiny CubeSat from Spire Global, used for ship tracking and weather data."
     },
     {
       "noradId": "30937",
@@ -625,7 +625,7 @@
         "line1": "1 30937U 99025BAB 26052.64818996 -.00000150  00000-0 -75967-4 0  9999",
         "line2": "2 30937  99.0764 108.9861 0074679 218.1114 296.0455 13.95607182967053"
       },
-      "education": null
+      "education":  "One of the thousands of fragments from the 2007 Chinese ASAT test that destroyed the Fengyun-1C satellite, creating the worst single debris cloud in history."
     },
     {
       "noradId": "49330",
@@ -636,7 +636,7 @@
         "line1": "1 49330U 21094A   26052.64809212 -.00000342  00000-0  00000-0 0  9992",
         "line2": "2 49330   4.8377  61.8256 0048828 171.3626 279.6737  1.00272949  4205"
       },
-      "education": null
+      "education": "SJ-21 is a Chinese technology demonstration satellite that performed orbital debris capture and deorbit tests, showing how future missions could clean up space junk."
     },
     {
       "noradId": "65170",
@@ -647,7 +647,7 @@
         "line1": "1 65170U 25174G   26052.64754104  .00000026  00000-0  26405-4 0  9993",
         "line2": "2 65170  86.4901 291.0034 0001165  75.4899 284.6365 13.24420783 25491"
       },
-      "education": null
+      "education":  "Hulianwang Digui-64 is part of a Chinese low‑Earth orbit internet constellation, designed to provide global broadband coverage."
     },
     {
       "noradId": "40057",
@@ -658,7 +658,7 @@
         "line1": "1 40057U 14034E   26052.64749755  .00005557  00000-0  49291-3 0  9990",
         "line2": "2 40057  98.2639 311.1443 0006496 299.9674  60.0901 14.96628729629314"
       },
-      "education": null
+      "education": "Velox-1 is a Singaporean nanosatellite developed by NTU, used for technology demonstration and Earth observation experiments."
     },
     {
       "noradId": "63300",
@@ -669,7 +669,7 @@
         "line1": "1 63300U 25056A   26052.64745672  .00002008  00000-0  32573-3 0  9999",
         "line2": "2 63300  97.9921 179.2212 0000196 335.8089  24.3109 14.72273898 50125"
       },
-      "education": null
+      "education": "Kineis-4E is a French IoT satellite from the Kineis constellation, enabling global connectivity for low‑power devices."
     },
     {
       "noradId": "56964",
@@ -680,7 +680,7 @@
         "line1": "1 56964U 23084AJ  26052.64743378  .00005401  00000-0  20446-3 0  9993",
         "line2": "2 56964  97.6076 186.7921 0011308  32.2720 327.9208 15.27313237149582"
       },
-      "education": null
+      "education": "AFR-1 is a South African technology demonstrator, testing new satellite components and communications systems."
     },
     {
       "noradId": "20236",
@@ -691,7 +691,7 @@
         "line1": "1 20236U 89074E   26052.64733740  .00000024  00000-0  74964-4 0  9990",
         "line2": "2 20236  82.5813 292.3088 0005763  42.1714 332.9936 12.64228173797075"
       },
-      "education": null
+      "education": "Cosmos 2042 was a Soviet navigation satellite, part of the GLONASS system that provided positioning data during the Cold War."
     },
     {
       "noradId": "58753",
@@ -702,7 +702,7 @@
         "line1": "1 58753U 24007A   26052.64732973  .00003007  00000-0  21715-3 0  9996",
         "line2": "2 58753  28.9971 244.5856 0010066  82.1617 278.0123 15.01202660116181"
       },
-      "education": null
+      "education": "Einstein Probe is a Chinese X‑ray astronomy satellite launched in 2024 to study black holes, neutron stars, and other high‑energy cosmic events."
     },
     {
       "noradId": "10314",
@@ -713,7 +713,7 @@
         "line1": "1 10314U 77065DL  26052.64716425  .00003434  00000-0  11632-2 0  9993",
         "line2": "2 10314  28.7767 178.8979 0633997 122.5588 353.6682 13.58788545343608"
       },
-      "education": null
+      "education": "A fragment from a Delta rocket launched in 1977. It's been orbiting for nearly 50 years, a reminder of how long debris stays in space."
     },
     {
       "noradId": "22576",
@@ -724,7 +724,7 @@
         "line1": "1 22576U 93016D   26052.64673907  .00000059  00000-0  94358-4 0  9995",
         "line2": "2 22576  70.9972 139.4478 0199414   2.4741  67.3552 13.73557167648786"
       },
-      "education": null
+      "education": "Debris from a Zenit-2 rocket (SL-16) that launched a Russian satellite in 1993. It's one of many pieces from upper stage breakups."
     },
     {
       "noradId": "14171",
@@ -735,7 +735,7 @@
         "line1": "1 14171U 83069A   26052.64672550  .00000012  00000-0  16666-3 0  9991",
         "line2": "2 14171  74.0261 145.3532 0043089  69.0086   0.4274 12.58764651958994"
       },
-      "education": null
+      "education": "Cosmos 1473 was a Soviet navigation satellite from 1983, part of the Parus constellation used for submarine communication."
     },
     {
       "noradId": "30386",
@@ -746,7 +746,7 @@
         "line1": "1 30386U 99025ACZ 26052.64666118  .00001752  00000-0  18932-2 0  9998",
         "line2": "2 30386  98.6884 304.6492 0306846 332.4053  53.8862 13.55909452937903"
       },
-      "education": null
+      "education": "Another fragment from the 2007 Chinese ASAT test that destroyed the Fengyun-1C satellite. This piece is part of the most debris‑dense cloud in low Earth orbit."
     },
     {
       "noradId": "19905",
@@ -757,7 +757,7 @@
         "line1": "1 19905U 89025D   26052.64660022 -.00000020  00000-0 -27570-4 0  9998",
         "line2": "2 19905  74.0114  25.0500 0021528 312.4348 160.4262 12.52208933687454"
       },
-      "education": null
+      "education": "Cosmos 2011 was a Soviet navigation satellite launched in 1989, continuing the GLONASS fleet during the late Cold War."
     },
     {
       "noradId": "27677",
@@ -768,7 +768,7 @@
         "line1": "1 27677U 99057MR  26052.64659568  .00000351  00000-0  10479-3 0  9996",
         "line2": "2 27677  98.5952 107.1637 0075249  76.6722  74.3287 14.47604777253177"
       },
-      "education": null
+      "education": "A piece of a Chinese Long March 4 rocket from 1999. It's a typical example of rocket body fragmentation contributing to orbital debris."
     },
     {
       "noradId": "34613",
@@ -779,7 +779,7 @@
         "line1": "1 34613U 93036WJ  26052.64658774  .00002341  00000-0  91005-3 0  9998",
         "line2": "2 34613  73.9632 149.7471 0113923 324.2265 104.1699 14.26902141874745"
       },
-      "education": null
+      "education": "A fragment from the 2009 collision between the inactive Russian satellite Cosmos 2251 and the operational Iridium 33. The crash created thousands of trackable pieces."
     },
     {
       "noradId": "40310",
@@ -790,7 +790,7 @@
         "line1": "1 40310U 14072A   26052.64648038  .00000476  00000-0  76394-4 0  9996",
         "line2": "2 40310  98.1282 189.1391 0011954 274.9383  85.0462 14.76190408606678"
       },
-      "education": null
+      "education": "Yaogan 24 is a Chinese remote sensing satellite, likely used for Earth observation and reconnaissance. It operates in a sun‑synchronous orbit."
     },
     {
       "noradId": "48229",
@@ -801,7 +801,7 @@
         "line1": "1 48229U 21031V   26052.64645521  .00000038  00000-0  68544-4 0  9992",
         "line2": "2 48229  87.9020 312.7384 0001788  80.0493 280.0839 13.14500881233200"
       },
-      "education": null
+      "education":  "OneWeb-0186 is part of the OneWeb internet constellation, designed to provide global broadband from low Earth orbit."
     },
     {
       "noradId": "19119",
