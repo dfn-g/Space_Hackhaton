@@ -72,7 +72,11 @@ html, body{
 
 .panel--info{
   right: 16px;
-  bottom: 16px;
+  top: 180px;
+  bottom: 250px;
+
+  width: min(300px, 42vw);   /* bigger, responsive */
+  overflow: auto;            /* scroll if content is long */
 }
 
 .panel__header{
@@ -262,4 +266,117 @@ html, body{
 .chip--strong {
   color: var(--text);
   background: rgba(90, 130, 255, 0.20);
+}
+
+/* ---------- Fancy Info Panel Layout ---------- */
+
+.panel--info{
+  right: 16px;
+  top: 150px;
+  bottom: 150px;
+  width: min(300px, 42vw);
+  overflow: auto;
+  padding: 22px;
+}
+
+.panel--info .panel__title{
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  margin: 0 0 8px 0;
+}
+
+.panel--info .panel__text{
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0 0 14px 0;
+}
+
+/* chips row */
+.infoChips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+/* section blocks */
+.infoSection{
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.infoSection__title{
+  font-size: 12px;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+/* stats grid */
+.statGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 900px){
+  .statGrid{ grid-template-columns: 1fr; }
+}
+
+.stat{
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.stat__label{
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.stat__value{
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: 0.2px;
+}
+
+.stat__unit{
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  margin-left: 4px;
+}
+
+/* key-value list */
+.infoKeyValue{
+  display: grid;
+  gap: 8px;
+}
+
+.kv{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.20);
+}
+
+.kv span:first-child{
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.kv span:last-child{
+  color: var(--text);
+  font-weight: 700;
+  font-size: 12px;
 }

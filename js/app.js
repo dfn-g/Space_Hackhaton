@@ -5,7 +5,7 @@ const canvas = document.getElementById("spaceCanvas");
 const ctx = canvas.getContext("2d");
 let debrisField = [];
 let hoveredDebris = null;
-let simRunning = true;   // from UI toggle 
+//let simRunning = true;   // from UI toggle 
 let SPACE_DATA = null;   // whole JSON file
 
 // --------- Canvas sizing (important) ----------
@@ -158,7 +158,7 @@ function drawDebris() {
             ctx.shadowColor = "white";       // optional glow
             ctx.shadowBlur = 10;
         } else {
-            ctx.fillStyle = "purple";
+            ctx.fillStyle = "rgba(180,140,255,0.9)";
             ctx.shadowBlur = 0;              // remove glow for others
         }
         
@@ -301,16 +301,63 @@ canvas.addEventListener('click', (event) => {
   const infoFact = document.getElementById('infoFact');
   const infoMeta = document.getElementById('infoMeta');
 
-  if (clickedDebris) {
-    // Show panel and populate data
-    infoPanel.classList.remove('is-hidden');
-    infoTitle.textContent = clickedDebris.type.charAt(0).toUpperCase() + clickedDebris.type.slice(1);
-    infoFact.textContent = `Orbit radius: ${clickedDebris.orbitRadius} px | Speed: ${clickedDebris.speed.toFixed(4)} rad/frame`;
-    infoMeta.textContent = `Size: ${clickedDebris.radius.toFixed(1)} px`;
-  } else {
-    // Hide panel if click is empty space
-    infoPanel.classList.add('is-hidden');
-  }
+if (clickedDebris) {
+  const obj = clickedDebris.data;
+
+  const name = obj?.name || `NORAD ${obj?.noradId || "Unknown"}`;
+  const fact = obj?.education?.fact || "No fact available for this object.";
+  const norad = obj?.noradId || "Unknown";
+  const type = obj?.type || clickedDebris.type || "UNKNOWN";
+  const band = clickedDebris.band || "LEO";
+
+  // These are your sim/visual stats
+  const orbitRadius = clickedDebris.orbitRadius;
+  const speed = clickedDebris.speed;
+  const size = clickedDebris.radius;
+
+  const metaHTML = `
+  <div class="infoChips">
+    <span class="chip chip--strong">NORAD ${norad}</span>
+    <span class="chip">${type}</span>
+    <span class="chip">${band}</span>
+  </div>
+
+  <div class="infoSection">
+    <div class="infoSection__title">Simulation</div>
+    <div class="statGrid">
+      <div class="stat">
+        <div class="stat__label">Orbit radius</div>
+        <div class="stat__value">${orbitRadius.toFixed(0)} <span class="stat__unit">px</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat__label">Speed</div>
+        <div class="stat__value">${speed.toFixed(4)} <span class="stat__unit">rad/frame</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat__label">Size</div>
+        <div class="stat__value">${size.toFixed(1)} <span class="stat__unit">px</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoSection">
+    <div class="infoSection__title">About this object</div>
+    <div class="infoKeyValue">
+      <div class="kv"><span>Catalog ID</span><span>${norad}</span></div>
+      <div class="kv"><span>Orbit band</span><span>${band}</span></div>
+      <div class="kv"><span>Type</span><span>${type}</span></div>
+    </div>
+  </div>
+`;
+
+  window.UI?.showInfoPanel({
+    name,
+    fact,
+    metaHTML   // 👈 this goes under the fact
+  });
+} else {
+  window.UI?.hideInfoPanel?.();
+}  
 });
 
 // Close button functionality
