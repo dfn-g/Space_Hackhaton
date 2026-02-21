@@ -160,3 +160,32 @@ html, body{
 .is-hidden{
   display: none;
 }
+
+/* Phase 2 additions: subtle animations + active states */
+
+.panel {
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.panel.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.panel.is-hidden {
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+}
+
+/* Active button state */
+.is-active {
+  border-color: rgba(90, 130, 255, 0.55);
+  background: rgba(90, 130, 255, 0.25) !important;
+}
+
+/* Slight hover lift */
+.btn:hover, .icon-btn:hover {
+  transform: translateY(-1px);
+  transition: transform 120ms ease;
+}
