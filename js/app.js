@@ -4,6 +4,7 @@
 const canvas = document.getElementById("spaceCanvas");
 const ctx = canvas.getContext("2d");
 
+let debrisField = [];
 // --------- Canvas sizing (important) ----------
 function resizeCanvas() {
   // Make the canvas match the displayed size (CSS) AND account for devicePixelRatio
@@ -25,6 +26,7 @@ window.addEventListener("resize", resizeCanvas);
 resizeCanvas();
 
 // --------- Scene helpers ----------
+//returns the center in terms of css pixels
 function getCenter() {
   return {
     x: window.innerWidth / 2,
@@ -46,6 +48,47 @@ function drawOrbitRing(cx, cy, radius) {
   ctx.lineWidth = 1;
   ctx.stroke();
 }
+
+function createDebris(count) {
+    debrisField = [];
+
+    const orbitRadii = [150, 220, 300];
+
+    for (let i = 0; i < count; i++) {
+
+        const orbitRadius = orbitRadii[Math.floor(Math.random() * orbitRadii.length)];
+        const angle = Math.random() * Math.PI * 2;
+
+        debrisField.push({
+            orbitRadius: orbitRadius,
+            angle: angle,
+            speed: 0.002 + Math.random() * 0.004,
+            radius: 3 + Math.random() * 4,
+            type: "debris"
+        });
+    }
+}
+
+function updateDebris() {
+    debrisField.forEach(obj => {
+        obj.angle += obj.speed;
+    });
+}
+
+function drawDebris() {
+   const { x: centerX, y: centerY } = getCenter();
+
+    debrisField.forEach(obj => {
+        const x = centerX + obj.orbitRadius * Math.cos(obj.angle);
+        const y = centerY + obj.orbitRadius * Math.sin(obj.angle);
+
+        ctx.beginPath();
+        ctx.arc(x, y, obj.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "purple";
+        ctx.fill();
+    });
+}
+
 
 function drawEarth(cx, cy) {
   // Earth body
@@ -77,8 +120,17 @@ function drawScene() {
 
 // --------- Animation loop ----------
 function animate() {
-  drawScene();
-  requestAnimationFrame(animate);
+    drawBackground();
+
+    drawScene();
+
+
+    updateDebris();
+    drawDebris();
+
+    requestAnimationFrame(animate);
+
 }
 
+createDebris(50);
 animate();
