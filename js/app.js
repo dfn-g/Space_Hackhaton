@@ -172,9 +172,9 @@ function drawDebris() {
         } else if (window.typeViewOn) {
             const t = (obj.data?.type || obj.type || "").toUpperCase();
             if (!activeFilters.has(t)) return;
-            if (t === "DEBRIS")           ctx.fillStyle = "rgba(255,90,90,0.9)";
-            else if (t === "ROCKET BODY") ctx.fillStyle = "rgba(255,200,60,0.9)";
-            else                          ctx.fillStyle = "rgba(60,220,140,0.9)";
+            if (t === "DEBRIS")           ctx.fillStyle = "rgba(221, 55, 88, 0.85)";
+            else if (t === "ROCKET BODY") ctx.fillStyle = "rgba(80, 32, 177, 0.85)";
+            else                          ctx.fillStyle = "rgba(106, 255, 225, 0.85)";
             ctx.shadowBlur = 0;
         } else {
             ctx.fillStyle = "rgba(180,140,255,0.9)";
@@ -315,6 +315,11 @@ canvas.addEventListener('mousemove', (event) => {
   let minDist = Infinity;
 
   debrisField.forEach(obj => {
+    if (window.typeViewOn) {
+      const t = (obj.data?.type || obj.type || "").toUpperCase();
+      if (!activeFilters.has(t)) return;
+    }
+
     const x = centerX + obj.orbitRadius * Math.cos(obj.angle);
     const y = centerY + obj.orbitRadius * Math.sin(obj.angle);
     const dx = mouseX - x;
@@ -325,6 +330,8 @@ canvas.addEventListener('mousemove', (event) => {
       minDist = dist;
       newHover = obj;
     }
+
+  
   });
 
   hoveredDebris = newHover;

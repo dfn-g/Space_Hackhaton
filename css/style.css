@@ -248,9 +248,9 @@ html, body{
   display: inline-block;
   border: 1px solid var(--border);
 }
-.dot--debris  { background: rgba(255, 90, 90, 0.85); }
-.dot--rocket  { background: rgba(255, 200, 60, 0.85); }
-.dot--payload { background: rgba(60, 220, 140, 0.85); }
+.dot--debris  { background: rgba(221, 55, 88, 0.85); }
+.dot--rocket  { background: rgba(80, 32, 177, 0.85); }
+.dot--payload { background: rgba(106, 255, 225, 0.85); }
 
 /* Chips for meta tags in info panel */
 .chips {
