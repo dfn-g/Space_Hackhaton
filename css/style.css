@@ -170,7 +170,7 @@ html, body{
   display: none;
 }
 
-/* Phase 2 additions: subtle animations + active states */
+/* Phase 2 additions active states */
 
 .panel {
   transition: transform 180ms ease, opacity 180ms ease;
@@ -271,7 +271,7 @@ html, body{
   background: rgba(90, 130, 255, 0.20);
 }
 
-/* ---------- Fancy Info Panel Layout ---------- */
+/* Info panel layout */
 
 .panel--info{
   right: 16px;
