@@ -2264,7 +2264,7 @@
         "line1": "1 67110U 25299J   26052.63941908  .00051593  00000-0  12324-2 0  9994",
         "line2": "2 67110  43.0002 261.1876 0001761 258.1019 101.9640 15.40739729 10647"
       },
-      "education": null
+      "education": "Starlink-35781 is part of SpaceX's second-generation V2 Mini constellation, launched in 2025. It orbits in a 43° inclination shell, using laser links to beam high-speed internet to remote areas, and can autonomously dodge debris to keep space safe."
     },
     {
       "noradId": "60873",

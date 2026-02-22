@@ -166,6 +166,9 @@ html, body{
 .is-hidden{
   display: none;
 }
+.modal.is-hidden {
+  display: none;
+}
 
 /* Phase 2 additions: subtle animations + active states */
 
@@ -196,9 +199,9 @@ html, body{
   transition: transform 120ms ease;
 }
 
-/* ---------- Phase 3 UI polish ---------- */
 
-/* Tooltip that follows mouse (we'll position via JS) */
+
+/*Tooltip that follows mouse (we'll position via JS) */
 .tooltip {
   position: fixed;
   z-index: 999;
@@ -234,7 +237,7 @@ html, body{
   align-items: center;
   gap: 8px;
   font-size: 12px;
-  color: var(--text); /* <-- important: not muted */
+  color: var(--text); 
   margin-bottom: 6px;
 }
 
@@ -379,4 +382,72 @@ html, body{
   color: var(--text);
   font-weight: 700;
   font-size: 12px;
+}
+
+/* Help button – circular, frosted glass */
+.help-btn {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  backdrop-filter: blur(10px);
+  color: var(--text);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  transition: background 0.2s;
+}
+.help-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Modal overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+/* Modal content panel – reuses existing panel style */
+.modal__content {
+  width: 480px;
+  max-width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(10px);
+  padding: 0;
+}
+
+.modal__content .panel__header {
+  padding: 14px 14px 0 14px;
+}
+
+.modal__content .panel__text {
+  padding: 0 14px 14px 14px;
+  margin: 0;
+}
+
+.modal__content .panel__meta {
+  margin: 0 14px 14px 14px;
 }

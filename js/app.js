@@ -305,7 +305,7 @@ if (clickedDebris) {
   const obj = clickedDebris.data;
 
   const name = obj?.name || `NORAD ${obj?.noradId || "Unknown"}`;
-  const fact = obj?.education?.fact || "No fact available for this object.";
+  const fact = obj?.education || "No fact available for this object.";
   const norad = obj?.noradId || "Unknown";
   const type = obj?.type || clickedDebris.type || "UNKNOWN";
   const band = clickedDebris.band || "LEO";
@@ -375,10 +375,34 @@ densitySelect.addEventListener('change', (event) => {
   if (value === 'low') {
     count = 20;      // few debris
   } else if (value === 'medium') {
-    count = 50;      // default medium
+    count = 70;      // default medium
   } else if (value === 'high') {
-    count = 100;     // many debris
+    count = 250;     // many debris
   }
 
   createDebris(count);  // replaces the debris field with new random debris
 });
+
+// Help modal functionality
+const helpButton = document.getElementById('helpButton');
+const helpModal = document.getElementById('helpModal');
+const closeHelp = document.getElementById('closeHelp');
+
+if (helpButton && helpModal && closeHelp) {
+  helpButton.addEventListener('click', () => {
+    helpModal.classList.remove('is-hidden');
+  });
+
+  closeHelp.addEventListener('click', () => {
+    helpModal.classList.add('is-hidden');
+  });
+
+  // Close modal when clicking outside the modal content
+  helpModal.addEventListener('click', (event) => {
+    if (event.target === helpModal) {
+      helpModal.classList.add('is-hidden');
+    }
+  });
+} else {
+  console.warn('Help button or modal elements not found in DOM.');
+}

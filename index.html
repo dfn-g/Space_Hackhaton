@@ -71,6 +71,38 @@
     </div>
   </aside>
 
+    <!-- Help button (question mark) -->
+<button id="helpButton" class="help-btn" aria-label="Help">?</button>
+
+<!-- Help modal (hidden by default) -->
+<div id="helpModal" class="modal is-hidden">
+  <div class="modal__content panel">
+    <div class="panel__header">
+      <h2 class="panel__title">Why Space Debris Matters</h2>
+      <button id="closeHelp" class="icon-btn" type="button">✕</button>
+    </div>
+    <div class="panel__text">
+  <p>Space debris, or "space junk," consists of defunct satellites, rocket stages, and fragments from collisions or explosions. With over 30,000 trackable objects larger than 10 cm and millions of smaller pieces, they pose a serious threat to operational satellites and the International Space Station.</p>
+  
+  <p><strong>What damage can it cause?</strong><br>
+  Even a tiny fleck of paint can damage critical systems because orbital velocities exceed 28,000 km/h (17,500 mph) – ten times the speed of a bullet. A collision with a 10‑cm object would release energy equivalent to a hand grenade, potentially shattering a satellite into thousands of new fragments. The 2009 Iridium‑Cosmos collision and the 2007 Chinese ASAT test each created thousands of trackable pieces.</p>
+  
+  <p><strong>Orbit zones & why debris collects there</strong><br>
+  • <strong>LEO (Low Earth Orbit, ~200–2000 km)</strong> – Contains the most debris because it's the most used region for Earth observation, communication satellites (like Starlink), and the ISS. Objects here orbit in 90–120 minutes and are affected by atmospheric drag, which slowly pulls them down, but at higher altitudes (600–1000 km) debris can stay for decades or centuries.<br>
+  • <strong>MEO (Medium Earth Orbit, ~2000–35,000 km)</strong> – Home to navigation satellites (GPS, Galileo). Fewer satellites, so less debris, but what's there lingers much longer.<br>
+  • <strong>GEO (Geostationary Orbit, ~35,786 km)</strong> – Satellites here match Earth's rotation, ideal for weather and comms. Orbits are stable, so debris never decays naturally – it's a "parking lot" that will remain dangerous forever.</p>
+  
+  <p>The Kessler Syndrome describes a cascade where collisions create more debris, eventually making some orbits unusable. LEO is at highest risk because of its dense population and high relative speeds.</p>
+  
+  <p>Understanding and tracking debris is the first step toward protecting our space infrastructure – for communications, weather monitoring, and scientific research.</p>
+</div>
+<div class="panel__meta">
+  Sources: ESA, NASA Orbital Debris Program Office
+</div>
+  </div>
+</div>
+
+
   <script src="js/ui.js"></script>
   <script src="js/app.js"></script>
 </body>
