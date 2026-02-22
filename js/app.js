@@ -1,5 +1,5 @@
 // js/app.js
-// Phase 1 (Person 1): Canvas setup + draw Earth + orbit rings
+// Canvas setup + draw Earth + orbit rings
 
 const canvas = document.getElementById("spaceCanvas");
 const ctx = canvas.getContext("2d");
@@ -8,7 +8,7 @@ let hoveredDebris = null;
 //let simRunning = true;   // from UI toggle 
 let SPACE_DATA = null;   // whole JSON file
 
-// --------- Earth texture (realistic) ----------
+// Earth texture 
 const earthImg = new Image();
 earthImg.src = "assets/earth_texture.png";
 let earthReady = false;
@@ -17,9 +17,9 @@ earthImg.onload = () => (earthReady = true);
 // optional: slow rotation
 let earthSpin = 0;
 
-// --------- Canvas sizing (important) ----------
+// Canvas sizing 
 function resizeCanvas() {
-  // Make the canvas match the displayed size (CSS) AND account for devicePixelRatio
+  // Make the canvas match the displayed size (CSS) and account for devicePixelRatio
   const dpr = window.devicePixelRatio || 1;
 
   // CSS size
@@ -37,7 +37,7 @@ function resizeCanvas() {
 window.addEventListener("resize", resizeCanvas);
 resizeCanvas();
 
-// --------- Scene helpers ----------
+// Scene helpers
 //returns the center in terms of css pixels
 function getCenter() {
   return {
@@ -200,7 +200,7 @@ function drawEarth(cx, cy) {
     return;
   }
 
-  // Slight rotation each frame (very slow, subtle)
+  // Slight rotation each frame 
   earthSpin += 0.0008;
 
   // Clip a circle and draw the texture inside it
@@ -209,7 +209,7 @@ function drawEarth(cx, cy) {
   ctx.arc(cx, cy, R, 0, Math.PI * 2);
   ctx.clip();
 
-  // Draw the equirectangular map so it "wraps" into the circle.
+  // Draw the equirectangular map so it wraps into the circle.
   // We fake rotation by shifting the texture horizontally.
   const imgW = earthImg.width;
   const imgH = earthImg.height;
@@ -235,7 +235,7 @@ function drawEarth(cx, cy) {
   ctx.fillStyle = limb;
   ctx.fill();
 
-  // Atmosphere glow (use your UI accent color)
+  // Atmosphere glow 
   ctx.save();
   ctx.beginPath();
   ctx.arc(cx, cy, R + 2.5, 0, Math.PI * 2);
@@ -247,7 +247,7 @@ function drawEarth(cx, cy) {
   ctx.restore();
 
 
-// Soft inner rim (adds depth without a hard outline)
+// Soft inner rim 
 ctx.save();
 ctx.beginPath();
 ctx.arc(cx, cy, R - 0.8, 0, Math.PI * 2);
@@ -273,7 +273,7 @@ function drawScene() {
   drawEarth(cx, cy);
 }
 
-// --------- Animation loop ----------
+// Animation loop 
 function animate() {
     
     drawScene();
@@ -300,7 +300,7 @@ async function start() {
 
 start().catch(console.error);
 
-// --------- Hover detection ----------
+// Hover detection 
 
 
 canvas.addEventListener('mousemove', (event) => {
@@ -347,7 +347,7 @@ canvas.addEventListener('mouseleave', () => {
 });
 
 
-// --------- Click detection ----------
+// Click detection 
 canvas.addEventListener('click', (event) => {
   // Get mouse position in CSS pixels relative to canvas
   const rect = canvas.getBoundingClientRect();
@@ -448,7 +448,7 @@ document.getElementById('closeInfo').addEventListener('click', () => {
   document.getElementById('infoPanel').classList.add('is-hidden');
 });
 
-// --------- Density control (Phase 4) ----------
+// Density control 
 const densitySelect = document.getElementById('densitySelect');
 
 densitySelect.addEventListener('change', (event) => {

@@ -49,7 +49,6 @@ toggleRiskBtn.addEventListener("click", () => {
   toggleRiskBtn.textContent = riskViewOn ? "Risk View: On" : "Risk View: Off";
   toggleRiskBtn.classList.toggle("is-active", riskViewOn);
   riskLegend.classList.toggle("is-hidden", !riskViewOn);
-  // Tell canvas logic (Person 1) that risk mode changed
   window.dispatchEvent(new CustomEvent("risk-toggle", { detail: { riskViewOn } }));
 });
 
@@ -69,8 +68,6 @@ densitySelect.addEventListener("change", () => {
   window.dispatchEvent(new CustomEvent("density-change", { detail: { density } }));
 });
 
-// ---------- Demo mode (for you now) ----------
-// This lets you test the info panel even before Person 1 wires click events.
 // Press "i" to open a sample info card.
 window.addEventListener("keydown", (e) => {
   if (e.key.toLowerCase() === "i") {
@@ -92,6 +89,5 @@ function showTooltip(text, x, y) {
 function hideTooltip() {
   hoverTooltip.classList.add("is-hidden");
 }
-// ---------- Export global function for Person 1 ----------
-// Person 1 can call: window.UI.showInfoPanel(debrisData)
+
 window.UI = { showInfoPanel, hideInfoPanel, showTooltip, hideTooltip };
