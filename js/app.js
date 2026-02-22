@@ -8,6 +8,15 @@ let hoveredDebris = null;
 //let simRunning = true;   // from UI toggle 
 let SPACE_DATA = null;   // whole JSON file
 
+// --------- Earth texture (realistic) ----------
+const earthImg = new Image();
+earthImg.src = "assets/earth_texture.png";
+let earthReady = false;
+earthImg.onload = () => (earthReady = true);
+
+// optional: slow rotation
+let earthSpin = 0;
+
 // --------- Canvas sizing (important) ----------
 function resizeCanvas() {
   // Make the canvas match the displayed size (CSS) AND account for devicePixelRatio
@@ -37,11 +46,27 @@ function getCenter() {
   };
 }
 
+const stars = Array.from({ length: 220 }, () => ({
+  x: Math.random(),
+  y: Math.random(),
+  r: Math.random() * 1.6,
+  a: 0.25 + Math.random() * 0.75
+}));
+
 function drawBackground() {
-  // simple deep-space look
   ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
   ctx.fillStyle = "#050814";
   ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+
+  // stars
+  for (const s of stars) {
+    const x = s.x * window.innerWidth;
+    const y = s.y * window.innerHeight;
+    ctx.beginPath();
+    ctx.arc(x, y, s.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(255,255,255,${s.a})`;
+    ctx.fill();
+  }
 }
 
 function drawOrbitRing(cx, cy, radius) {
@@ -168,21 +193,77 @@ function drawDebris() {
     ctx.shadowBlur = 0;
 }
 
-
 function drawEarth(cx, cy) {
-  // Earth body
+  const R = 78;
+
+  // If image not ready yet, fallback to simple circle
+  if (!earthReady) {
+    ctx.beginPath();
+    ctx.arc(cx, cy, R, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(70,135,255,0.95)";
+    ctx.fill();
+    return;
+  }
+
+  // Slight rotation each frame (very slow, subtle)
+  earthSpin += 0.0008;
+
+  // Clip a circle and draw the texture inside it
+  ctx.save();
   ctx.beginPath();
-  ctx.arc(cx, cy, 75, 0, Math.PI * 2);
-  ctx.fillStyle = "rgba(80, 140, 255, 0.95)";
+  ctx.arc(cx, cy, R, 0, Math.PI * 2);
+  ctx.clip();
+
+  // Draw the equirectangular map so it "wraps" into the circle.
+  // We fake rotation by shifting the texture horizontally.
+  const imgW = earthImg.width;
+  const imgH = earthImg.height;
+
+  // Horizontal offset in pixels (wrap-around)
+  const shift = (earthSpin * imgW) % imgW;
+
+  // We draw twice to cover wrap-around seams
+  ctx.drawImage(earthImg, -shift, 0, imgW, imgH, cx - R, cy - R, R * 2 * (imgW / imgH), R * 2);
+  ctx.drawImage(earthImg, imgW - shift, 0, imgW, imgH, cx - R, cy - R, R * 2 * (imgW / imgH), R * 2);
+
+  // Because the image aspect is 2:1, we scale it into the circle area
+  // This keeps land/ocean texture visible.
+
+  ctx.restore();
+
+  // Subtle limb darkening for depth (matches UI, not scary)
+  const limb = ctx.createRadialGradient(cx, cy, R * 0.55, cx, cy, R);
+  limb.addColorStop(0, "rgba(0,0,0,0)");
+  limb.addColorStop(1, "rgba(0,0,0,0.22)");
+  ctx.beginPath();
+  ctx.arc(cx, cy, R, 0, Math.PI * 2);
+  ctx.fillStyle = limb;
   ctx.fill();
 
-  // Simple glow
+  // Atmosphere glow (use your UI accent color)
+  ctx.save();
   ctx.beginPath();
-  ctx.arc(cx, cy, 90, 0, Math.PI * 2);
-  ctx.strokeStyle = "rgba(90, 130, 255, 0.20)";
-  ctx.lineWidth = 10;
+  ctx.arc(cx, cy, R + 2.5, 0, Math.PI * 2);
+  ctx.strokeStyle = "rgba(4, 33, 91, 0.29)";
+  ctx.lineWidth = 8;
+  ctx.shadowColor = "rgba(64, 104, 184, 0.67)";
+  ctx.shadowBlur = 12;
   ctx.stroke();
+  ctx.restore();
+
+
+// Soft inner rim (adds depth without a hard outline)
+ctx.save();
+ctx.beginPath();
+ctx.arc(cx, cy, R - 0.8, 0, Math.PI * 2);
+ctx.strokeStyle = "rgba(255,255,255,0.08)";
+ctx.lineWidth = 2;
+ctx.shadowColor = "rgba(0,0,0,0.25)";
+ctx.shadowBlur = 6;
+ctx.stroke();
+ctx.restore();
 }
+
 
 function drawScene() {
   drawBackground();
