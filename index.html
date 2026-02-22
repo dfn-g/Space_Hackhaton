@@ -33,12 +33,17 @@
 
     <div class="control control--row">
       <button id="toggleRisk" class="btn btn--secondary" type="button">
-        Risk View: Off
+        Type View: Off
       </button>
 
       <button id="toggleSim" class="btn btn--primary" type="button">
         Run Simulation
       </button>
+    </div>
+    <div id="typeFilters" class="control is-hidden">
+      <button class="btn filter-btn is-active" data-type="DEBRIS" style="width:100%;margin-bottom:6px;">● Debris</button>
+      <button class="btn filter-btn is-active" data-type="ROCKET BODY" style="width:100%;margin-bottom:6px;">● Rocket Body</button>
+      <button class="btn filter-btn is-active" data-type="PAYLOAD" style="width:100%;">● Payload</button>
     </div>
 
     <div class="hint">

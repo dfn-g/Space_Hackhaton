@@ -171,6 +171,7 @@ function drawDebris() {
             ctx.shadowBlur = 10;
         } else if (window.typeViewOn) {
             const t = (obj.data?.type || obj.type || "").toUpperCase();
+            if (!activeFilters.has(t)) return;
             if (t === "DEBRIS")           ctx.fillStyle = "rgba(255,90,90,0.9)";
             else if (t === "ROCKET BODY") ctx.fillStyle = "rgba(255,200,60,0.9)";
             else                          ctx.fillStyle = "rgba(60,220,140,0.9)";
@@ -179,8 +180,9 @@ function drawDebris() {
             ctx.fillStyle = "rgba(180,140,255,0.9)";
             ctx.shadowBlur = 0;
         }
-        
+
         ctx.fill();
+       
     });
     // Reset shadow to avoid affecting other drawings
     ctx.shadowBlur = 0;
@@ -482,9 +484,26 @@ if (helpButton && helpModal && closeHelp) {
 }
 
 
+let activeFilters = new Set(["DEBRIS", "ROCKET BODY", "PAYLOAD"]);
+
 document.getElementById('toggleRisk').addEventListener('click', (e) => {
   window.typeViewOn = !window.typeViewOn;
   e.target.textContent = window.typeViewOn ? 'Type View: On' : 'Type View: Off';
-  document.getElementById('riskLegend').classList.toggle('is-hidden', !window.typeViewOn);
   e.target.classList.toggle('is-active', window.typeViewOn);
+  document.getElementById('typeFilters').classList.toggle('is-hidden', !window.typeViewOn);
+  document.getElementById('riskLegend').classList.toggle('is-hidden', !window.typeViewOn);
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const type = btn.dataset.type;
+    if (activeFilters.has(type)) {
+      if (activeFilters.size === 1) return; // prevent deselecting all
+      activeFilters.delete(type);
+      btn.classList.remove('is-active');
+    } else {
+      activeFilters.add(type);
+      btn.classList.add('is-active');
+    }
+  });
 });
