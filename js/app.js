@@ -147,19 +147,6 @@ function createDebris(count) {
     });
   }
 
-    /*for (let i = 0; i < count; i++) {
-
-        const orbitRadius = orbitRadii[Math.floor(Math.random() * orbitRadii.length)];
-        const angle = Math.random() * Math.PI * 2;
-
-        debrisField.push({
-            orbitRadius: orbitRadius,
-            angle: angle,
-            speed: 0.002 + Math.random() * 0.004,
-            radius: 3 + Math.random() * 4,
-            type: "debris"
-        });
-    }*/
 }
 
 function updateDebris() {
@@ -179,12 +166,18 @@ function drawDebris() {
         ctx.arc(x, y, obj.radius, 0, Math.PI * 2);
         // Highlight if this object is hovered
         if (obj === hoveredDebris) {
-            ctx.fillStyle = "yellow";        // highlight colour
-            ctx.shadowColor = "white";       // optional glow
+            ctx.fillStyle = "yellow";
+            ctx.shadowColor = "white";
             ctx.shadowBlur = 10;
+        } else if (window.typeViewOn) {
+            const t = (obj.data?.type || obj.type || "").toUpperCase();
+            if (t === "DEBRIS")           ctx.fillStyle = "rgba(255,90,90,0.9)";
+            else if (t === "ROCKET BODY") ctx.fillStyle = "rgba(255,200,60,0.9)";
+            else                          ctx.fillStyle = "rgba(60,220,140,0.9)";
+            ctx.shadowBlur = 0;
         } else {
             ctx.fillStyle = "rgba(180,140,255,0.9)";
-            ctx.shadowBlur = 0;              // remove glow for others
+            ctx.shadowBlur = 0;
         }
         
         ctx.fill();
@@ -434,7 +427,7 @@ if (clickedDebris) {
   window.UI?.showInfoPanel({
     name,
     fact,
-    metaHTML   // 👈 this goes under the fact
+    metaHTML   //this goes under the fact
   });
 } else {
   window.UI?.hideInfoPanel?.();
@@ -487,3 +480,11 @@ if (helpButton && helpModal && closeHelp) {
 } else {
   console.warn('Help button or modal elements not found in DOM.');
 }
+
+
+document.getElementById('toggleRisk').addEventListener('click', (e) => {
+  window.typeViewOn = !window.typeViewOn;
+  e.target.textContent = window.typeViewOn ? 'Type View: On' : 'Type View: Off';
+  document.getElementById('riskLegend').classList.toggle('is-hidden', !window.typeViewOn);
+  e.target.classList.toggle('is-active', window.typeViewOn);
+});
